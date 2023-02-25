@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677309456210,
+  "lastUpdate": 1677316550568,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -271,6 +271,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 2.87,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "51d400b398978a490dda9782fae4371bc5533dc5",
+          "message": "update for server (#155)\n\n* update for server\r\n\r\n* update chezmoiignore for server\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update for exa\r\n\r\n* update\r\n\r\n* update for age\r\n\r\n* remove exa from chezmoiexternal and add the installation to the misc.sh\r\n\r\n* update tests\r\n\r\n* update\r\n\r\n* update tests\r\n\r\n* update",
+          "timestamp": "2023-02-25T18:12:23+09:00",
+          "tree_id": "0e222bcc25c46ead92bb42d6aca52b9630bee891",
+          "url": "https://github.com/shunk031/dotfiles/commit/51d400b398978a490dda9782fae4371bc5533dc5"
+        },
+        "date": 1677316550114,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.703,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 3,
             "unit": "Second"
           }
         ]
