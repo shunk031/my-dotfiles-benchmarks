@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677479184742,
+  "lastUpdate": 1677503554391,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -373,6 +373,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 3.22,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c5aca1f612d609382f94572d4d5ef5e72f96cda9",
+          "message": "Revert \"Update for server (#158)\" (#160)\n\nThis reverts commit ceffa50a13d811a949d42d0365364c0b96ffc31c.",
+          "timestamp": "2023-02-27T22:09:09+09:00",
+          "tree_id": "71647240749dc2ee2dbeea6eec103f1b9cae83bf",
+          "url": "https://github.com/shunk031/dotfiles/commit/c5aca1f612d609382f94572d4d5ef5e72f96cda9"
+        },
+        "date": 1677503553879,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.635,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 3,
             "unit": "Second"
           }
         ]
