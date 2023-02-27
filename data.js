@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677316550568,
+  "lastUpdate": 1677474810605,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -305,6 +305,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 3,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ceffa50a13d811a949d42d0365364c0b96ffc31c",
+          "message": "Update for server (#158)\n\n* add PATH for rust & cargo\r\n\r\n* update for .bashrc\r\n\r\n* update",
+          "timestamp": "2023-02-27T14:07:22+09:00",
+          "tree_id": "9264552d193a99092086db6d00e4a6a1e78fab75",
+          "url": "https://github.com/shunk031/dotfiles/commit/ceffa50a13d811a949d42d0365364c0b96ffc31c"
+        },
+        "date": 1677474809727,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.713,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 11.91,
             "unit": "Second"
           }
         ]
