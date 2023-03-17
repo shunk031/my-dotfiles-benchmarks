@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678714204162,
+  "lastUpdate": 1679052580264,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -475,6 +475,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 4.16,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d336d1b8cb632275780be92ccec508fa2f9ee10a",
+          "message": "Update scripts for repository (#164)\n\n* move `benchmark.sh` to `scripts/benchmarks`\r\n\r\n* remove bnchmarks directory\r\n\r\n* change the path of the `benchmark.sh`\r\n\r\n* rename filename\r\n\r\n* change the path of benchmark.sh\r\n\r\n* update test\r\n\r\n* update run_benchmark.sh\r\n\r\n* update run_benchmark.sh\r\n\r\n* update for tests",
+          "timestamp": "2023-03-17T20:22:57+09:00",
+          "tree_id": "5f8d4172e4b73bdfdb4b50f2c12bdcccb0152e30",
+          "url": "https://github.com/shunk031/dotfiles/commit/d336d1b8cb632275780be92ccec508fa2f9ee10a"
+        },
+        "date": 1679052579732,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.667,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 2.94,
             "unit": "Second"
           }
         ]
