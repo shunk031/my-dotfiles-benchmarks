@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679052580264,
+  "lastUpdate": 1679880110213,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -509,6 +509,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 2.94,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7faf4f2fd8e0f9ee41fb403775c19293dfd85c88",
+          "message": "download `autocvd-go` (#165)",
+          "timestamp": "2023-03-27T10:15:55+09:00",
+          "tree_id": "dd565b2d7f639c8e05dd9da87164fa0f2149cede",
+          "url": "https://github.com/shunk031/dotfiles/commit/7faf4f2fd8e0f9ee41fb403775c19293dfd85c88"
+        },
+        "date": 1679880109745,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.561,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 2.49,
             "unit": "Second"
           }
         ]
