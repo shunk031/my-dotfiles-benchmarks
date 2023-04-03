@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679880110213,
+  "lastUpdate": 1680523941956,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -543,6 +543,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 2.49,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4b6b20ad6f18e3badaa32875d77ec323ed718cf8",
+          "message": "add `colima-start` command (#167)",
+          "timestamp": "2023-04-03T21:08:06+09:00",
+          "tree_id": "c82da0e53d77f181b768923e6e58741c51551249",
+          "url": "https://github.com/shunk031/dotfiles/commit/4b6b20ad6f18e3badaa32875d77ec323ed718cf8"
+        },
+        "date": 1680523941192,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.591,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 2.7,
             "unit": "Second"
           }
         ]
