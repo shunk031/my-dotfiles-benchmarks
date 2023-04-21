@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680859248333,
+  "lastUpdate": 1682067238254,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -611,6 +611,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 2.64,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5136ee25aaac4f0cbde7e72bc133889e1665766e",
+          "message": "disable bell for iTerm2 (#172)",
+          "timestamp": "2023-04-21T17:49:36+09:00",
+          "tree_id": "ee3f2bc5c84aa8952664b1b9b06797856e4b08db",
+          "url": "https://github.com/shunk031/dotfiles/commit/5136ee25aaac4f0cbde7e72bc133889e1665766e"
+        },
+        "date": 1682067237299,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.628,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 2.79,
             "unit": "Second"
           }
         ]
