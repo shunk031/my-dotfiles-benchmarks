@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682257632020,
+  "lastUpdate": 1682257688307,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -679,6 +679,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 2.7,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "29eef65991f120e497ce4d511b6089e88cd3e5dc",
+          "message": "Install ngrok (#174)\n\n* install ngrok\r\n\r\n* install ngrok through brew cask",
+          "timestamp": "2023-04-23T22:42:22+09:00",
+          "tree_id": "87c3ab1b3cd3086ed2cba198a0e87ad52edfa263",
+          "url": "https://github.com/shunk031/dotfiles/commit/29eef65991f120e497ce4d511b6089e88cd3e5dc"
+        },
+        "date": 1682257687803,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.557,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 2.52,
             "unit": "Second"
           }
         ]
