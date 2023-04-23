@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682067238254,
+  "lastUpdate": 1682257632020,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -645,6 +645,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 2.79,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0637d2df8bc0129eaaa4a3a1e778c985861b0f08",
+          "message": "update test for MacOS's defaults (#175)",
+          "timestamp": "2023-04-23T22:42:39+09:00",
+          "tree_id": "ced4f60993eebc731fc4bc1a614b73e91b41e8d5",
+          "url": "https://github.com/shunk031/dotfiles/commit/0637d2df8bc0129eaaa4a3a1e778c985861b0f08"
+        },
+        "date": 1682257631223,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.582,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 2.7,
             "unit": "Second"
           }
         ]
