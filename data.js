@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682257688307,
+  "lastUpdate": 1684666937273,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -713,6 +713,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 2.52,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a01bda59bc3badc0f2069fd3e3b68f0f8e203f75",
+          "message": "fix URL for downloading the fonts (#177)",
+          "timestamp": "2023-05-21T19:58:21+09:00",
+          "tree_id": "d8114c04134bf566ab8e032b38403f9c0133525a",
+          "url": "https://github.com/shunk031/dotfiles/commit/a01bda59bc3badc0f2069fd3e3b68f0f8e203f75"
+        },
+        "date": 1684666936736,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.56,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 2.59,
             "unit": "Second"
           }
         ]
