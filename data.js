@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684666937273,
+  "lastUpdate": 1684842979311,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -747,6 +747,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 2.59,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b08480d83fe54f44f54fe5f730fb5bd0d80aeced",
+          "message": "update config for iTerm2 (#178)",
+          "timestamp": "2023-05-23T20:52:02+09:00",
+          "tree_id": "f1bde32322126ab379deb138815980f33b3ddee7",
+          "url": "https://github.com/shunk031/dotfiles/commit/b08480d83fe54f44f54fe5f730fb5bd0d80aeced"
+        },
+        "date": 1684842977416,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.56,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 2.87,
             "unit": "Second"
           }
         ]
