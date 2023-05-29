@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684890485086,
+  "lastUpdate": 1685323639039,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -849,6 +849,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 15.03,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e2af5023c766b3e0183ac29abf3dc1c8fde88355",
+          "message": "update Nerd font (#180)",
+          "timestamp": "2023-05-29T10:23:05+09:00",
+          "tree_id": "1ec4d5d85703c44996e14f3f54681888f7167c34",
+          "url": "https://github.com/shunk031/dotfiles/commit/e2af5023c766b3e0183ac29abf3dc1c8fde88355"
+        },
+        "date": 1685323636993,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 1.37,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 6.77,
             "unit": "Second"
           }
         ]
