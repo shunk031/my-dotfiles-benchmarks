@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685323639039,
+  "lastUpdate": 1685884706834,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -883,6 +883,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 6.77,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "efae14d240ce78627dae9211c9fade548d40b379",
+          "message": "change font from HackNerdFontCompleteM-Regular to HackNFM-Regular (#182)",
+          "timestamp": "2023-06-04T22:14:20+09:00",
+          "tree_id": "b4f0fde2b70ce7f006fb9ec2016546f78b515a26",
+          "url": "https://github.com/shunk031/dotfiles/commit/efae14d240ce78627dae9211c9fade548d40b379"
+        },
+        "date": 1685884706364,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.645,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 2.98,
             "unit": "Second"
           }
         ]
