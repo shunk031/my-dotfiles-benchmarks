@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685884706834,
+  "lastUpdate": 1686269353358,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -917,6 +917,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 2.98,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3eeaa8f20a4c4c75a4a85d58ca8685c65d95f66d",
+          "message": "clone `.work` as external (#181)\n\n* add `.private_dotfiles`\r\n\r\n* update setup.sh\r\n\r\n* Revert \"update setup.sh\"\r\n\r\nThis reverts commit 4f6012e93056d8fa414c19e15c4f70644ed820db.\r\n\r\n* Revert \"add `.private_dotfiles`\"\r\n\r\nThis reverts commit 2dfab9a8bab97d983e8b6796228ab570f8d039b4.\r\n\r\n* update external\r\n\r\n* update\r\n\r\n* add setting\r\n\r\n* change the directory name\r\n\r\n* load config for work",
+          "timestamp": "2023-06-09T09:05:23+09:00",
+          "tree_id": "cc48969e47cd99f0aa7892427be79896a51bc8fb",
+          "url": "https://github.com/shunk031/dotfiles/commit/3eeaa8f20a4c4c75a4a85d58ca8685c65d95f66d"
+        },
+        "date": 1686269352971,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.62,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 2.67,
             "unit": "Second"
           }
         ]
