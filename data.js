@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686269353358,
+  "lastUpdate": 1686325967380,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -951,6 +951,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 2.67,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "51701512eb1386702abc963989676243c92d1185",
+          "message": "Revert \"add files for connecting VPN (#179)\" (#183)\n\nThis reverts commit b848d96a959e42c80d0daab3afe69ef3bde86717.",
+          "timestamp": "2023-06-10T00:47:57+09:00",
+          "tree_id": "caef8a319c0c7cc4b73a13e4a93a86c1742c155d",
+          "url": "https://github.com/shunk031/dotfiles/commit/51701512eb1386702abc963989676243c92d1185"
+        },
+        "date": 1686325966771,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.837,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 3.72,
             "unit": "Second"
           }
         ]
