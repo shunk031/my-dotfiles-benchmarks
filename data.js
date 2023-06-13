@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686325967380,
+  "lastUpdate": 1686618120902,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -985,6 +985,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 3.72,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "095941bb23b23b395e844f1bf08380970014acd0",
+          "message": "update tmux.conf for macos (#184)",
+          "timestamp": "2023-06-13T09:57:40+09:00",
+          "tree_id": "4390c4eeae45fd7028080c3c8d1357e1ae5f2bc5",
+          "url": "https://github.com/shunk031/dotfiles/commit/095941bb23b23b395e844f1bf08380970014acd0"
+        },
+        "date": 1686618119236,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.609,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 2.79,
             "unit": "Second"
           }
         ]
