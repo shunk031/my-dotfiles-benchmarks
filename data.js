@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686618120902,
+  "lastUpdate": 1686819072836,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -1019,6 +1019,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 2.79,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4910b275192665b244a8520a38f10526b6a20409",
+          "message": "add `login-ghcr` command (#185)\n\n* add `login-ghcr` command\r\n\r\n* update\r\n\r\n* add `--platform` option",
+          "timestamp": "2023-06-15T17:44:44+09:00",
+          "tree_id": "fd051a52ef1413608c7ca72453e43b54d237d7d8",
+          "url": "https://github.com/shunk031/dotfiles/commit/4910b275192665b244a8520a38f10526b6a20409"
+        },
+        "date": 1686819072348,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.713,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 25.93,
             "unit": "Second"
           }
         ]
