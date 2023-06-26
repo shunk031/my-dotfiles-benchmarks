@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686819072836,
+  "lastUpdate": 1687748644852,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -1053,6 +1053,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 25.93,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a4cc2390916f7ced8d929e62f8812c6b32efba19",
+          "message": "install the private dotfiles at MacOS (#186)",
+          "timestamp": "2023-06-26T11:56:41+09:00",
+          "tree_id": "778642a19d845bd63887d0c660cdb47826f6c829",
+          "url": "https://github.com/shunk031/dotfiles/commit/a4cc2390916f7ced8d929e62f8812c6b32efba19"
+        },
+        "date": 1687748644029,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.681,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 2.95,
             "unit": "Second"
           }
         ]
