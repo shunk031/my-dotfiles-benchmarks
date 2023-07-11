@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1687748644852,
+  "lastUpdate": 1689056605538,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -1087,6 +1087,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 2.95,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dbf8d3ed6863e156a585c9c387a34578c406a100",
+          "message": "Update for server (#187)\n\n* comment out of installing rust.sh\r\n\r\n* download exa using chezmoi external mechanism\r\n\r\n* update to remove test for the exa command",
+          "timestamp": "2023-07-11T15:18:59+09:00",
+          "tree_id": "6d331f67930ed7c4bdc3ebbc4c008cd80404718d",
+          "url": "https://github.com/shunk031/dotfiles/commit/dbf8d3ed6863e156a585c9c387a34578c406a100"
+        },
+        "date": 1689056602998,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.638,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 6.22,
             "unit": "Second"
           }
         ]
