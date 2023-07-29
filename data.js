@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690638969498,
+  "lastUpdate": 1690640478958,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -1325,6 +1325,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 2.69,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "229b925e9d49fe5a5c4c42140d60cb357513a882",
+          "message": "update for fzf (#194)",
+          "timestamp": "2023-07-29T23:16:40+09:00",
+          "tree_id": "0d0f9df04ee2b180923cc330722952eae95d7e01",
+          "url": "https://github.com/shunk031/dotfiles/commit/229b925e9d49fe5a5c4c42140d60cb357513a882"
+        },
+        "date": 1690640478224,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.607,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 2.82,
             "unit": "Second"
           }
         ]
