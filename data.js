@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690552426579,
+  "lastUpdate": 1690631252503,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -1189,6 +1189,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 2.51,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3bd277d90900c86d463a3a072de9d0e4c615e8dd",
+          "message": "Update binary installation (#192)\n\n* update for exa\r\n\r\n* update for age\r\n\r\n* update for exa\r\n\r\n* update for ghq\r\n\r\n* update for misc\r\n\r\n* remove unused line\r\n\r\n* update test\r\n\r\n* update",
+          "timestamp": "2023-07-29T20:43:39+09:00",
+          "tree_id": "c1c0271da62682702c3ed1bd458617933b8efaf2",
+          "url": "https://github.com/shunk031/dotfiles/commit/3bd277d90900c86d463a3a072de9d0e4c615e8dd"
+        },
+        "date": 1690631251937,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.543,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 2.53,
             "unit": "Second"
           }
         ]
