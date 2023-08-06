@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1690646182601,
+  "lastUpdate": 1691327096719,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -1393,6 +1393,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 2.92,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "16ac23f38e7ee85e17583bbeb1f17a59139cc95d",
+          "message": "add chezmoi scripts for exa (#199)",
+          "timestamp": "2023-08-06T22:00:54+09:00",
+          "tree_id": "c2f75ac8f060eee2dd462ec6a0e273eb53433127",
+          "url": "https://github.com/shunk031/dotfiles/commit/16ac23f38e7ee85e17583bbeb1f17a59139cc95d"
+        },
+        "date": 1691327096318,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.604,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 2.94,
             "unit": "Second"
           }
         ]
