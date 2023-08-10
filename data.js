@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691327096719,
+  "lastUpdate": 1691667542773,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -1427,6 +1427,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 2.94,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e52582d725483b7460d32cc0fa02a958b72c7c88",
+          "message": "add config for ai2-tango (#200)",
+          "timestamp": "2023-08-10T20:33:18+09:00",
+          "tree_id": "c1dca797803665e650a8fccf0a29eac961342f73",
+          "url": "https://github.com/shunk031/dotfiles/commit/e52582d725483b7460d32cc0fa02a958b72c7c88"
+        },
+        "date": 1691667538868,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 1.503,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 59.63,
             "unit": "Second"
           }
         ]
