@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691667542773,
+  "lastUpdate": 1691890822424,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -1461,6 +1461,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 59.63,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7a26c59bd146c9702d1a4e471cd14abad56adafa",
+          "message": "Use docker desktop (#198)\n\n* remove `colima-start` command\r\n\r\n* update Makefile to remove related to lima/colima\r\n\r\n* update scripts\r\n\r\n* update README",
+          "timestamp": "2023-08-13T10:32:34+09:00",
+          "tree_id": "3adeb4b3b29e7b4ec31d42b6c76c75ef910495d4",
+          "url": "https://github.com/shunk031/dotfiles/commit/7a26c59bd146c9702d1a4e471cd14abad56adafa"
+        },
+        "date": 1691890821681,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.622,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 3.1,
             "unit": "Second"
           }
         ]
