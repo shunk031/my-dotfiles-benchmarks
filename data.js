@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691890822424,
+  "lastUpdate": 1691907485133,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -1495,6 +1495,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 3.1,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9aac5bb3dc8de389f22eebcd6d3b05baf2e83330",
+          "message": "Update for rust based dotfiles (#202)\n\n* add scripts and tests for sheldon\r\n\r\n* add scripts and tests for starship\r\n\r\n* add plugins.toml for sheldon\r\n\r\n* add tmpl scripts\r\n\r\n* add scripts\r\n\r\n* update scripts\r\n\r\n* update\r\n\r\n* update\r\n\r\n* add comment\r\n\r\n* update scripts\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update scripts\r\n\r\n* update",
+          "timestamp": "2023-08-13T15:12:09+09:00",
+          "tree_id": "77bcf62d35d33bada21b67c041edd0afc6bee230",
+          "url": "https://github.com/shunk031/dotfiles/commit/9aac5bb3dc8de389f22eebcd6d3b05baf2e83330"
+        },
+        "date": 1691907484303,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.588,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 3.05,
             "unit": "Second"
           }
         ]
