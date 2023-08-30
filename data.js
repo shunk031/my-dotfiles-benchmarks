@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692374114141,
+  "lastUpdate": 1693360295869,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -1563,6 +1563,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 69.01,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f97cbb4d0ef401038aa8084f7adede809b43abe2",
+          "message": "use personal access token (PAT) of GitHub if exists as env variable (#203)\n\n* use personal access token (PAT) of GitHub if exists as env variable\r\n\r\n* update for exa.sh\r\n\r\n* update for age.sh\r\n\r\n* update for age.sh",
+          "timestamp": "2023-08-30T10:43:54+09:00",
+          "tree_id": "3e398bae823090f2be354afdb582a9311f820430",
+          "url": "https://github.com/shunk031/dotfiles/commit/f97cbb4d0ef401038aa8084f7adede809b43abe2"
+        },
+        "date": 1693360295066,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.569,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 2.84,
             "unit": "Second"
           }
         ]
