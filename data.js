@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696124416495,
+  "lastUpdate": 1696127831506,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -1665,6 +1665,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 2.81,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "839083cef1d2f917b62d51b0e1c02103234a390d",
+          "message": "remove unused actions/checkout in the CI workflow (#211)",
+          "timestamp": "2023-10-01T11:29:08+09:00",
+          "tree_id": "65ea6a690419ee0aa3b505b9899933384e7f9a84",
+          "url": "https://github.com/shunk031/dotfiles/commit/839083cef1d2f917b62d51b0e1c02103234a390d"
+        },
+        "date": 1696127830618,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.599,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 2.97,
             "unit": "Second"
           }
         ]
