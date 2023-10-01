@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696127831506,
+  "lastUpdate": 1696147265026,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -1699,6 +1699,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 2.97,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cbd1ec41699a4f8ae877639ea2879a5fa2a2cb05",
+          "message": "Create dependabot.yml (#214)",
+          "timestamp": "2023-10-01T16:53:14+09:00",
+          "tree_id": "bf9d965246386e1e0d32f99f5792f438164e94c9",
+          "url": "https://github.com/shunk031/dotfiles/commit/cbd1ec41699a4f8ae877639ea2879a5fa2a2cb05"
+        },
+        "date": 1696147264613,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.651,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 2.98,
             "unit": "Second"
           }
         ]
