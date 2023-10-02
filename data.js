@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696154206768,
+  "lastUpdate": 1696255826249,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -1767,6 +1767,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 2.99,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "505c32ec64c28c6de1817f05e9c2d5163747651d",
+          "message": "update `decrypt_age_private_key.sh` (#209)\n\n* update age.sh\r\n\r\n* rename chezmoi scripts",
+          "timestamp": "2023-10-02T23:04:52+09:00",
+          "tree_id": "6f11b3da096281d249bae69d7138302898fbec05",
+          "url": "https://github.com/shunk031/dotfiles/commit/505c32ec64c28c6de1817f05e9c2d5163747651d"
+        },
+        "date": 1696255825798,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.612,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 3.01,
             "unit": "Second"
           }
         ]
