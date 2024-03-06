@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709523819595,
+  "lastUpdate": 1709687687303,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2039,6 +2039,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 0.78,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "84671b6e4c0171314b1770fbf055df402b42defb",
+          "message": "update for eza and exa (#225)",
+          "timestamp": "2024-03-06T10:11:25+09:00",
+          "tree_id": "7cd9b49d717e5d35502506113eda2171dc2cd9e9",
+          "url": "https://github.com/shunk031/dotfiles/commit/84671b6e4c0171314b1770fbf055df402b42defb"
+        },
+        "date": 1709687686407,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.142,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 0.79,
             "unit": "Second"
           }
         ]
