@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715470036372,
+  "lastUpdate": 1715470847438,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2175,6 +2175,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 0.74,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9e3fc5ff6b5308f125267e06ccae4cdd0c327b81",
+          "message": "update for iTerm2 and chezmoiignore (#229)",
+          "timestamp": "2024-05-12T01:37:33+02:00",
+          "tree_id": "7515ad1ed61a4fe6a001898c30f4f5f411c8cbfd",
+          "url": "https://github.com/shunk031/dotfiles/commit/9e3fc5ff6b5308f125267e06ccae4cdd0c327b81"
+        },
+        "date": 1715470846783,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.183,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 0.95,
             "unit": "Second"
           }
         ]
