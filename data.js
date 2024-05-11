@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714235582770,
+  "lastUpdate": 1715470036372,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2136,6 +2136,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh average startup time",
             "value": 0.133,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 0.74,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e0f14988e3136435ed3a5f70320b7492b3027dab",
+          "message": "add settings for jupyter lab (#227)\n\n* add settings for jupyter lab\r\n\r\n* rename settings for jupyterlab\r\n\r\n* ignore the jupyterlab settings\r\n\r\n* update",
+          "timestamp": "2024-05-12T01:24:15+02:00",
+          "tree_id": "e1de332d4f9c6a7365e096af9268fb22a95f2274",
+          "url": "https://github.com/shunk031/dotfiles/commit/e0f14988e3136435ed3a5f70320b7492b3027dab"
+        },
+        "date": 1715470035433,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.131,
             "unit": "Second"
           },
           {
