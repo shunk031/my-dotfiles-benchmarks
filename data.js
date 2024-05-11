@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715470847438,
+  "lastUpdate": 1715471293471,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2209,6 +2209,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 0.95,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d730987b7ed36fc9ef8296cbf77182e5e517ed93",
+          "message": "rename file for decrypting private key in Ubuntu (#228)",
+          "timestamp": "2024-05-12T01:44:58+02:00",
+          "tree_id": "aa4684bfed5de28e8446399eb240c4c042749568",
+          "url": "https://github.com/shunk031/dotfiles/commit/d730987b7ed36fc9ef8296cbf77182e5e517ed93"
+        },
+        "date": 1715471292515,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.132,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 0.75,
             "unit": "Second"
           }
         ]
