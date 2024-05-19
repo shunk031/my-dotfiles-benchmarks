@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716100755634,
+  "lastUpdate": 1716101001446,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2277,6 +2277,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 1.27,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aedc22f5edfc290f303a6f49517374212af3ca62",
+          "message": "Test for file existence (#233)\n\n* add tests\r\n\r\n* update files\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+          "timestamp": "2024-05-19T15:34:27+09:00",
+          "tree_id": "447b7f317435b10a3f39ded1ed5d6ed40116edc3",
+          "url": "https://github.com/shunk031/dotfiles/commit/aedc22f5edfc290f303a6f49517374212af3ca62"
+        },
+        "date": 1716101000521,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.168,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 0.86,
             "unit": "Second"
           }
         ]
