@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721207338932,
+  "lastUpdate": 1721207775575,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2345,6 +2345,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 0.81,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a38cbfcd4279dd56ac77bf434f617a4ce5ac4d4d",
+          "message": "update to speedup pyenv-virtualenv prompt (#235)",
+          "timestamp": "2024-07-17T18:13:16+09:00",
+          "tree_id": "9b8cfa59e1120dda22af72eb6cdce0dd716fc237",
+          "url": "https://github.com/shunk031/dotfiles/commit/a38cbfcd4279dd56ac77bf434f617a4ce5ac4d4d"
+        },
+        "date": 1721207774583,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.137,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 0.8,
             "unit": "Second"
           }
         ]
