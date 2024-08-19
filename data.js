@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721207775575,
+  "lastUpdate": 1724073228023,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2379,6 +2379,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 0.8,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "386b37ec7e8889aa92e04be069c5e1eed4a36d4c",
+          "message": "add `starship.toml` (#236)\n\n* add `starship.toml`\r\n\r\n* update `starship.sh`\r\n\r\n* update",
+          "timestamp": "2024-08-19T22:10:31+09:00",
+          "tree_id": "f398d2f37095873bbca21155a55e65200036f3d5",
+          "url": "https://github.com/shunk031/dotfiles/commit/386b37ec7e8889aa92e04be069c5e1eed4a36d4c"
+        },
+        "date": 1724073227043,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.155,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 0.83,
             "unit": "Second"
           }
         ]
