@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724073228023,
+  "lastUpdate": 1729737674240,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2413,6 +2413,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 0.83,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a342a985feb51715c9ad11a5631be3b2ffe5fd88",
+          "message": "Use `git credential manager` in Ubuntu Server (#237)\n\n* use `git-credential-manager` in Ubuntu Server\r\n\r\n* add test",
+          "timestamp": "2024-10-24T11:37:08+09:00",
+          "tree_id": "8f14641cea9be1a96fc3e8ecd475fc76effed454",
+          "url": "https://github.com/shunk031/dotfiles/commit/a342a985feb51715c9ad11a5631be3b2ffe5fd88"
+        },
+        "date": 1729737673440,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.305,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 1.67,
             "unit": "Second"
           }
         ]
