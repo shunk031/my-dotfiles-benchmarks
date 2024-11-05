@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729737674240,
+  "lastUpdate": 1730788683171,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2447,6 +2447,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 1.67,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c914d3b83a859911a4b30c6aed84104a3fd00b30",
+          "message": "use `uv` instead of `pyenv` (#238)\n\n* remove `pyenv` related files and settings\r\n\r\n* move `rust.sh` from `~/.local/bin/server` to `~/.local/bin/common`\r\n\r\n* install `uv`\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+          "timestamp": "2024-11-05T15:35:13+09:00",
+          "tree_id": "15250658c348f10fce35a75e7bb7d32770d8f24c",
+          "url": "https://github.com/shunk031/dotfiles/commit/c914d3b83a859911a4b30c6aed84104a3fd00b30"
+        },
+        "date": 1730788682172,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.06,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 0.71,
             "unit": "Second"
           }
         ]
