@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730793423891,
+  "lastUpdate": 1730798369738,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2549,6 +2549,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 0.72,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f5ccc49ecd0fd7c549ffb8bb82891ebc20fa94c3",
+          "message": "update URL of uv-installer.sh (#241)",
+          "timestamp": "2024-11-05T18:16:34+09:00",
+          "tree_id": "ed292a660f5a687ae89259bba4af661fb2513a1e",
+          "url": "https://github.com/shunk031/dotfiles/commit/f5ccc49ecd0fd7c549ffb8bb82891ebc20fa94c3"
+        },
+        "date": 1730798368703,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.06,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 0.69,
             "unit": "Second"
           }
         ]
