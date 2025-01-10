@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733056711364,
+  "lastUpdate": 1736507768153,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2617,6 +2617,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 0.71,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "290113798798ea66d7d880eaa5e23877f4d66c48",
+          "message": "disable rearrangement of mission control (#243)",
+          "timestamp": "2025-01-10T20:13:08+09:00",
+          "tree_id": "26d0432daa4974ff5bd3888a4390f84e7db730da",
+          "url": "https://github.com/shunk031/dotfiles/commit/290113798798ea66d7d880eaa5e23877f4d66c48"
+        },
+        "date": 1736507767337,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.062,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 0.78,
             "unit": "Second"
           }
         ]
