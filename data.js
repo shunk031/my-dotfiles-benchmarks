@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736507768153,
+  "lastUpdate": 1737014480397,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2651,6 +2651,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 0.78,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8dc1d923048b90790aed487feeb1c60ca5b50196",
+          "message": "update for kcov (#244)\n\n* update for kcov\r\n\r\n* add test for kcov\r\n\r\n* update\r\n\r\n* update",
+          "timestamp": "2025-01-16T16:58:02+09:00",
+          "tree_id": "d07cd671dd7324df7ff69b335ef21ea226257387",
+          "url": "https://github.com/shunk031/dotfiles/commit/8dc1d923048b90790aed487feeb1c60ca5b50196"
+        },
+        "date": 1737014479384,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.068,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 0.84,
             "unit": "Second"
           }
         ]
