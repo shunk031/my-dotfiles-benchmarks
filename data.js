@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737014480397,
+  "lastUpdate": 1747718207345,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2685,6 +2685,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 0.84,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "32b3d979b11d420e8cac78a129d58680b8b5cdd2",
+          "message": "add aws-cli installation script and corresponding tests for Ubuntu (#246)\n\n* add aws_cli installation script and corresponding tests for Ubuntu\n\n* rename template for AWS CLI installation script on Ubuntu\n\n* update aws_cli installation script to include --update flag",
+          "timestamp": "2025-05-20T14:13:12+09:00",
+          "tree_id": "b3fca639cbece993ca7165df5611324d8216c6d2",
+          "url": "https://github.com/shunk031/dotfiles/commit/32b3d979b11d420e8cac78a129d58680b8b5cdd2"
+        },
+        "date": 1747718206303,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.062,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 0.7,
             "unit": "Second"
           }
         ]
