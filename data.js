@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750953275207,
+  "lastUpdate": 1750955156436,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2748,6 +2748,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh average startup time",
             "value": 0.072,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 0.72,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f7961505adff783d5390e4f27495c75e2ebbda2c",
+          "message": "fix: test (#259)\n\n* fix: refactor iterm2 test to use local variable for config path\n\n* fix: comment out docker-compose check in docker test\n\n* fix: adjust iterm2 test for proper command execution and formatting\n\n* fix: clean up iterm2 test by removing commented code and ensuring proper teardown",
+          "timestamp": "2025-06-27T01:22:34+09:00",
+          "tree_id": "730f2a3668dc6033ff710a4a48e847b98bc412e5",
+          "url": "https://github.com/shunk031/dotfiles/commit/f7961505adff783d5390e4f27495c75e2ebbda2c"
+        },
+        "date": 1750955155395,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.06,
             "unit": "Second"
           },
           {
