@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747718207345,
+  "lastUpdate": 1750953275207,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2719,6 +2719,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 0.7,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bb40e7948ed93be63f22916787962a6a7e1d1262",
+          "message": "fix: use DOTFILES_GITHUB_PAT for getting latest version of the nvm (#257)\n\n* fix: use DOTFILES_GITHUB_PAT for getting latest version of the nvm\n\n* fix: standardize environment variables across workflow files\n\n* fix: simplify nvm loading in test script\n\n* fix: comment out DOTFILES_DEBUG in macos workflow\n\n* fix: simplify chezmoi installation by removing redundant checks\n\n* fix: install chezmoi alongside gnu-time in benchmark workflow\n\n* fix: comment out debug flag in unit test script\n\n* fix: remove commented debug flag from macos and ubuntu test functions\n\n* fix: remove commented debug flag from run_unit_test.sh\n\n* fix: remove verbose flag from nvm uninstall function and update test for nvm installation\n\n* fix: comment out docker-compose check in macos docker test\n\n* fix: uncomment docker-compose check in macos docker test",
+          "timestamp": "2025-06-27T00:51:29+09:00",
+          "tree_id": "d33998dd6afd4cb9ff701398fa2602660d47b347",
+          "url": "https://github.com/shunk031/dotfiles/commit/bb40e7948ed93be63f22916787962a6a7e1d1262"
+        },
+        "date": 1750953274132,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.072,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 0.72,
             "unit": "Second"
           }
         ]
