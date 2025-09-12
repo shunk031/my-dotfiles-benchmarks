@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750955156436,
+  "lastUpdate": 1757720907374,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2787,6 +2787,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 0.72,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3387026dafb18456514612f3d27b50c3545d5e96",
+          "message": "feat: update tmux installation to handle CMake issues on GitHub Actions (#266)",
+          "timestamp": "2025-09-13T08:45:22+09:00",
+          "tree_id": "c894db93c0826890a5ed947d51a8cbf82bdd4c6d",
+          "url": "https://github.com/shunk031/dotfiles/commit/3387026dafb18456514612f3d27b50c3545d5e96"
+        },
+        "date": 1757720906350,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.072,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 0.78,
             "unit": "Second"
           }
         ]
