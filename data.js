@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757726248895,
+  "lastUpdate": 1757728028968,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2889,6 +2889,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 0.91,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eb7748497f77532d7e5f58027ff24537d2b1bcf5",
+          "message": "feat: update workflow paths to include specific YAML files for macOS, Ubuntu, and test workflows (#268)",
+          "timestamp": "2025-09-13T10:43:51+09:00",
+          "tree_id": "871e2e4c38047d1fdff2f86de8e38a7d347a72e8",
+          "url": "https://github.com/shunk031/dotfiles/commit/eb7748497f77532d7e5f58027ff24537d2b1bcf5"
+        },
+        "date": 1757728027720,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.084,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 0.92,
             "unit": "Second"
           }
         ]
