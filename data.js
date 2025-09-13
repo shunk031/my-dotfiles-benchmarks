@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757720907374,
+  "lastUpdate": 1757725724841,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2821,6 +2821,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 0.78,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b19c8eb6e05127c091a0324b35626367b3426153",
+          "message": "feat: update for private dotfiles managed by chezmoi (#265)\n\n* refactor: remove conditional work directory configuration from macos_client.yaml.tmpl\n\n* fix: correct path for SSH config inclusion in private_config\n\n* fix: correct path for workrc in zshrc\n\n* feat: add setup script for private dotfiles on macOS\n\n* feat: enhance init and update commands for chezmoi-private\n\n* feat: refactor macOS setup to use a separate script for private dotfiles\n\n* feat: rename macOS script to run after setting up private dotfiles\n\n* feat: add ssh-agent step for private dotfiles deployment in macOS workflow\n\n* feat: include setup.sh in paths for push and pull_request triggers in macOS and Ubuntu workflows\n\n* feat: integrate private dotfiles initialization into setup.sh and remove obsolete script\n\n* feat: add private dotfiles path declaration and update chezmoi init command\n\n* feat: add SSH agent setup step for private dotfiles deployment in macOS and Ubuntu workflows\n\n* fix: clarify config file usage in private dotfiles initialization",
+          "timestamp": "2025-09-13T10:05:27+09:00",
+          "tree_id": "0a86cbde38c5c0839b2ecd5c9fc29baf7a0ddfaa",
+          "url": "https://github.com/shunk031/dotfiles/commit/b19c8eb6e05127c091a0324b35626367b3426153"
+        },
+        "date": 1757725723810,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.095,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 1.32,
             "unit": "Second"
           }
         ]
