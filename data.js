@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759074060544,
+  "lastUpdate": 1759074648532,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2991,6 +2991,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 1.18,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9138990281942869440ee8eee7df7b80c2a32e4f",
+          "message": "feat: add cyberduck to CASK_PACKAGES for improved application management (#272)",
+          "timestamp": "2025-09-29T00:47:48+09:00",
+          "tree_id": "0ccdf3b41178d43ec7cf431d8d90eee0a8b13bfe",
+          "url": "https://github.com/shunk031/dotfiles/commit/9138990281942869440ee8eee7df7b80c2a32e4f"
+        },
+        "date": 1759074647691,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.07,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 0.76,
             "unit": "Second"
           }
         ]
