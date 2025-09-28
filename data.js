@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757728028968,
+  "lastUpdate": 1759073004200,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -2923,6 +2923,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 0.92,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f3543159cfa742a60d9753face8e10843f45997f",
+          "message": "feat: update for private dotfiles (#271)\n\n* feat: add support for private dotfiles repository and configuration path\n\n* feat: add client aliases to new script and update zshrc to source it\n\n* feat: add server alias script and update plugin configuration\n\n* fix: update alias for ls command from exa to eza for consistency\n\n* feat: add sourcing for private aliases in zshrc\n\n* feat: add private alias plugin configuration",
+          "timestamp": "2025-09-29T00:20:18+09:00",
+          "tree_id": "bf3bd907a6f794c8b165ab1fd5c5043dce532645",
+          "url": "https://github.com/shunk031/dotfiles/commit/f3543159cfa742a60d9753face8e10843f45997f"
+        },
+        "date": 1759073003187,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.07,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 0.75,
             "unit": "Second"
           }
         ]
