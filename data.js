@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759074648532,
+  "lastUpdate": 1759325591101,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3025,6 +3025,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 0.76,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1d6321d5e302e74215b7229caf6e0d72d3219858",
+          "message": "feat: use `sheldon` instead of `prezto` (#275)\n\n* feat: add sheldon plugin sources for client and server configurations\n\n* fix: remove plugins.toml from chezmoiignore for server configuration\n\n* Remove commented instructions for customizing the prompt in zshrc\n\n* feat: add client plugin source configurations for macOS, Ubuntu, and Powerlevel10k\n\n* refactor: remove OS specific settings from zshrc\n\n* fix: remove prezto badge from README.md\n\n* refactor: consolidate Go and Rust plugin configurations into common.toml; remove obsolete scripts\n\n* refactor: remove obsolete alias and configuration sources from zshrc\n\n* refactor: remove obsolete .zprezto configurations from macos_client.yaml.tmpl\n\n* refactor: replace gpg.sh with inline function for GPG_TTY in common.toml\n\n* feat: add installation script for Sheldon package manager\n\n* refactor: clean up zshrc by removing obsolete GPG and Rust script sources\n\n* refactor: update chezmoiignore and plugin source configurations for Sheldon\n\n* Add p10k plugin configuration to common.toml\n\n- Introduced a new plugin section for p10k with local path and usage instructions.\n- Updated the powerlevel10k plugin section for better organization.\n\n* feat: add path and fpath functions for client, macOS, server, and common plugins\n\n* feat: add dot_zshrc file and remove symlink template for system-specific zshrc\n\n* refactor: remove obsolete zprofile and zshrc files for client and server\n\n* refactor: consolidate path and fpath settings into dot_zshrc and remove obsolete symlink template\n\n* refactor: remove obsolete dot_profile, dot_zlogin, dot_zlogout, and dot_zshenv files\n\n* fix: replace run-shell with fail for better error handling in dot_tmux.conf.tmpl\n\n* fix: improve error handling in symlink_dot_bashrc.tmpl by replacing echo and exit with fail function\n\n* refactor: remove obsolete dot_zpreztorc file\n\n* fix: update image source in README.md to use relative path\n\n* fix: add terminal-notifier to CASK_PACKAGES for installation\n\n* fix: update printf syntax for email address input in workflow scripts\n\n* feat: add new template for Sheldon installation and remove obsolete Ubuntu script\n\n* feat: add container installation script for macOS\n\n* Revert \"feat: add container installation script for macOS\"\n\nThis reverts commit f4b39115bd19e238f6e1eb61bb06124faab481ff.\n\n* fix: remove obsolete gpg.sh check and add zshrc to file existence tests\n\n* feat: add language configuration for Zsh with LANG environment variable\n\n* fix: update PATH in uv.bats to use local bin directory\n\n* feat: add mise installation script and corresponding test\n\n* fix: remove unused BIN_DIR reference in install_mise and update uninstall_mise path\n\n* fix: change MISE_INSTALL_PATH from readonly to export for accessibility\n\n* fix: comment out pipefail setting in mise.sh for debugging purposes\n\n* refactor: remove nvm installation scripts and related tests\n\n* feat: add mise plugin configuration for managing multiple versions of tools\n\n* fix: update BREW_PACKAGES and CASK_PACKAGES to manage terminal-notifier correctly",
+          "timestamp": "2025-10-01T22:29:27+09:00",
+          "tree_id": "87f49a844019b39a0ab4cf7437f09e79d7439f2f",
+          "url": "https://github.com/shunk031/dotfiles/commit/1d6321d5e302e74215b7229caf6e0d72d3219858"
+        },
+        "date": 1759325590274,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.056,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 6.73,
             "unit": "Second"
           }
         ]
