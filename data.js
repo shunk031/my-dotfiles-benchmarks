@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759451527422,
+  "lastUpdate": 1759504364309,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3093,6 +3093,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 7.76,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d888dc75a8386bfeb6a737e68edcb77902ccdb40",
+          "message": "feat: update for chezmoi external (#285)\n\n* feat: update for chezmoiexternal\n\n* feat: update chezmoi external templates for client systems and add Ubuntu support\n\n* feat: update eza configuration in Ubuntu template\n\n* feat: update URL generation for eza and ghq in configuration templates\n\n* feat: fix URL generation for eza by using a variable for architecture\n\n* feat: remove obsolete eza installation script for Ubuntu\n\n* feat: add Go installation configuration and improve ghq extraction command\n\n* feat: refactor configuration templates and add Ubuntu support for eza\n\n* feat: update Go installation path and improve version retrieval method\n\n* feat: update Go installation path in configuration templates\n\n* fix: correct variable syntax for HOME in Go plugin path\n\n* fix: add silent flag to curl command for retrieving Go version\n\n* fix: correct template path for macOS configuration\n\n* fix: remove non-existent fzf directory from existence checks\n\n* fix: add GITHUB_TOKEN to environment variables in macOS and Ubuntu workflows\n\n* fix: comment out test cases in macOS and Ubuntu dotfiles scripts",
+          "timestamp": "2025-10-04T00:09:26+09:00",
+          "tree_id": "0d9ee73f27fc00fac18e5bfbef17ef42b622005b",
+          "url": "https://github.com/shunk031/dotfiles/commit/d888dc75a8386bfeb6a737e68edcb77902ccdb40"
+        },
+        "date": 1759504363531,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.071,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 8.23,
             "unit": "Second"
           }
         ]
