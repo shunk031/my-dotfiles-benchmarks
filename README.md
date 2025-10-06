@@ -1,4 +1,4 @@
-# `shumk031/dotfiles` Benchmark Viewer
+# [`shunk031/dotfiles`](https://github.com/shunk031/dotfiles) Benchmark Viewer
 
 [![pages-build-deployment](https://github.com/shunk031/my-dotfiles-benchmarks/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/shunk031/my-dotfiles-benchmarks/actions/workflows/pages/pages-build-deployment)
 
