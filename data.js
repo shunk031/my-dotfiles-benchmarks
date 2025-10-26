@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759504364309,
+  "lastUpdate": 1761461956231,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3127,6 +3127,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 8.23,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "452db480b004877982a0611b9740e0de490b5d5e",
+          "message": "feat: use GITHUB_TOKEN (#295)\n\n* refactor: replace DOTFILES_GITHUB_PAT with GITHUB_TOKEN in workflow files and scripts\n\n* fix: correct shebang line in setup.sh",
+          "timestamp": "2025-10-26T15:56:01+09:00",
+          "tree_id": "d5498adcda7190dbd9a29026c14f4515f2a0e7a9",
+          "url": "https://github.com/shunk031/dotfiles/commit/452db480b004877982a0611b9740e0de490b5d5e"
+        },
+        "date": 1761461955628,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.063,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 6.99,
             "unit": "Second"
           }
         ]
