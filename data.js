@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761461956231,
+  "lastUpdate": 1761797608575,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3161,6 +3161,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 6.99,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "33aae58377b8072f7bf29984fb842e998fd551e2",
+          "message": "feat: remove ghq installation scripts and tests (#296)\n\n* feat: remove ghq installation scripts and tests\n\n* fix: correct test names for eza and kcov in bats tests\n\n* feat: remove golang installation script and associated tests\n\n* feat: remove golang installation script template",
+          "timestamp": "2025-10-30T13:10:10+09:00",
+          "tree_id": "4472cf129d15fb0dcc7c1b58ef69ec6fe5d9d57b",
+          "url": "https://github.com/shunk031/dotfiles/commit/33aae58377b8072f7bf29984fb842e998fd551e2"
+        },
+        "date": 1761797607684,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.062,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 7.62,
             "unit": "Second"
           }
         ]
