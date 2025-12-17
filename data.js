@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761797608575,
+  "lastUpdate": 1765985474819,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3195,6 +3195,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 7.62,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "75ed9c820489327dd5a0150a5304bf0e96c99eca",
+          "message": "feat: use mise to install global tools (#310)\n\n* feat: use mise to install global tools\n\n* feat: add aws-cli, bats, and additional cargo tools to mise configuration\n\n* refactor: remove golang installation script and related tests\n\n* refactor: remove GitHub CLI installation scripts and related tests\n\n* refactor: remove bats-core package check from macOS install tests\n\n* refactor: remove AWS CLI installation script and related tests\n\n* refactor: remove hugo from brew packages and tests, add hugo-extended to mise configuration\n\n* refactor: remove Rust installation script and related tests\n\n* refactor: remove uv installation script and related tests\n\n* refactor: remove dotenvx installation script and related tests\n\n* feat: add SSH setup script for Debian-based Linux distributions\n\n* refactor: remove age and jq installation scripts and related tests\n\n* feat: add new script templates for installation and decryption processes; remove deprecated macOS and Ubuntu scripts\n\n* refactor: update install_mise function to activate mise environment instead of using 'mise install'\n\n* refactor: remove deprecated chezmoi installation scripts and related tests for macOS and Ubuntu\n\n* refactor: remove deprecated run_once_after_decrypt-private-key script for macOS\n\n* refactor: replace bats-core installation with mise-action for improved caching and installation\n\n* refactor: update template script path in mise.bats for consistency\n\n* refactor: change fail-on-alert setting to false in benchmark action\n\n* refactor: update config.toml to include eza and yazi tools, remove cargo references\n\n* fix: correct expected number of packages in ubuntu-common test\n\n* refactor: remove shellcheck from package lists in macOS and Ubuntu scripts",
+          "timestamp": "2025-12-18T00:28:05+09:00",
+          "tree_id": "4ffe764e060fd7ebce8ade298e8c8bbcc3ee82a6",
+          "url": "https://github.com/shunk031/dotfiles/commit/75ed9c820489327dd5a0150a5304bf0e96c99eca"
+        },
+        "date": 1765985473907,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.094,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 10.62,
             "unit": "Second"
           }
         ]
