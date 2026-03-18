@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765985474819,
+  "lastUpdate": 1773796675570,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3229,6 +3229,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 10.62,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b9f22e0f2840104536d201f825541361afa31eba",
+          "message": "refactor: separate core dependencies from misc install scripts (#381)\n\n* refactor: separate core dependencies from misc install scripts\n\n* fix: close ubuntu dependencies template condition\n\n* test: update ubuntu common bats for dependencies script\n\n* fix: avoid git package conflict in ubuntu dependencies\n\n* feat: add chezmoiscript for ubuntu client misc install",
+          "timestamp": "2026-03-18T10:13:38+09:00",
+          "tree_id": "a377e0a87134d5ea1ff7844399a260b3e2d0a0d0",
+          "url": "https://github.com/shunk031/dotfiles/commit/b9f22e0f2840104536d201f825541361afa31eba"
+        },
+        "date": 1773796674300,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.109,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 8.91,
             "unit": "Second"
           }
         ]
