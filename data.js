@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775485121934,
+  "lastUpdate": 1775489354290,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3297,6 +3297,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 9.05,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8f369ab8b14e606fe33fb00ece76f40db17c43d8",
+          "message": "ci(workflows): guard secretless contexts for private-credential jobs (#394)\n\n* ci(actions): update to node24-compatible actions and guard secretless contexts\n\n* ci(workflows): avoid secret-context expressions in job conditions\n\n* ci(workflows): keep action versions and add secretless-context guards",
+          "timestamp": "2026-04-07T00:23:41+09:00",
+          "tree_id": "5ef46edeb2a2bb129c9a7803b3e7772950d4991a",
+          "url": "https://github.com/shunk031/dotfiles/commit/8f369ab8b14e606fe33fb00ece76f40db17c43d8"
+        },
+        "date": 1775489352954,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.083,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 8.3,
             "unit": "Second"
           }
         ]
