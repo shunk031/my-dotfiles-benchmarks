@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775489354290,
+  "lastUpdate": 1775489809333,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3331,6 +3331,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 8.3,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "04dd4de625ee72bf6ce7f4f24c3954ed62665568",
+          "message": "chore(deps): bump webfactory/ssh-agent from 0.9.1 to 0.10.0 (#388)\n\nBumps [webfactory/ssh-agent](https://github.com/webfactory/ssh-agent) from 0.9.1 to 0.10.0.\n- [Release notes](https://github.com/webfactory/ssh-agent/releases)\n- [Changelog](https://github.com/webfactory/ssh-agent/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/webfactory/ssh-agent/compare/v0.9.1...v0.10.0)\n\n---\nupdated-dependencies:\n- dependency-name: webfactory/ssh-agent\n  dependency-version: 0.10.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Shunsuke KITADA <shunsuke.kitada.0831@gmail.com>",
+          "timestamp": "2026-04-07T00:31:00+09:00",
+          "tree_id": "1ac5d82e9ec24c17bcf4250ca2d5223e91be8a1b",
+          "url": "https://github.com/shunk031/dotfiles/commit/04dd4de625ee72bf6ce7f4f24c3954ed62665568"
+        },
+        "date": 1775489808024,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.14,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 9.68,
             "unit": "Second"
           }
         ]
