@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773796675570,
+  "lastUpdate": 1775485121934,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3263,6 +3263,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 8.91,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2e5450f667940e42844291b66a85da0b6b27a17c",
+          "message": "feat(setup): bootstrap private chezmoi initialization (#390)\n\n* feat(setup): bootstrap private chezmoi initialization\n\n* refactor(ssh): extract AcceptEnv setup into helper function\n\n* test(common): make mise template check order-agnostic\n\n* fix(ubuntu): remove sudo from dependency package list\n\n* fix(ubuntu): support apt-get when sudo is unavailable\n\n* fix(ubuntu): bootstrap sudo before apt operations\n\n* chore(shell): format dependencies script for shfmt\n\n* fix(ubuntu): avoid reinstalling existing packages\n\n* test(ubuntu): cover dependencies sudo bootstrap paths",
+          "timestamp": "2026-04-06T23:13:27+09:00",
+          "tree_id": "4ba0a6922a725d29b399084d92dd52b4de87f8e1",
+          "url": "https://github.com/shunk031/dotfiles/commit/2e5450f667940e42844291b66a85da0b6b27a17c"
+        },
+        "date": 1775485120776,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.113,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 9.05,
             "unit": "Second"
           }
         ]
