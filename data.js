@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775490860442,
+  "lastUpdate": 1775814404676,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3399,6 +3399,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 8.3,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "062f4a5d18db438e4f03507c9f9fcb5e65c6ac9e",
+          "message": "feat(tmux): enable native clipboard integration (#401)\n\n* feat(tmux): enable native clipboard integration\n\n* fix(ubuntu): avoid git dependency conflict in tmux install\n\n* test(macos): replace reattach package check with git\n\n* test(ubuntu): cover uninstall_openssh remove path\n\n* test(ubuntu): stabilize uninstall_openssh mock under debug env\n\n* test(ubuntu): make uninstall_openssh assertion robust\n\n* test(ubuntu): add deterministic dependencies coverage cases\n\n* refactor(install): move git and cmake to common dependencies\n\n* fix(ci): disable DOTFILES_DEBUG in test workflow\n\n* test(coverage): cover debug and command-detection branches\n\n* test(coverage): cover additional early-return branches",
+          "timestamp": "2026-04-10T18:40:40+09:00",
+          "tree_id": "a182bc972311fc9d4097bdda0e50dcfa1ebe0385",
+          "url": "https://github.com/shunk031/dotfiles/commit/062f4a5d18db438e4f03507c9f9fcb5e65c6ac9e"
+        },
+        "date": 1775814403662,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.169,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 8.48,
             "unit": "Second"
           }
         ]
