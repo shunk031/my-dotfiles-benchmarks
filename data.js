@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775814404676,
+  "lastUpdate": 1776078875344,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3433,6 +3433,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 8.48,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dc603ae2bfd1ae44a455433c23e504d39ef1494e",
+          "message": "fix(macos): install tailscale only for shunk031 via homebrew (#404)",
+          "timestamp": "2026-04-13T20:09:48+09:00",
+          "tree_id": "34db612e4de43d6bfe7f7b0b0c665df07539d0f1",
+          "url": "https://github.com/shunk031/dotfiles/commit/dc603ae2bfd1ae44a455433c23e504d39ef1494e"
+        },
+        "date": 1776078874235,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.083,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 8.52,
             "unit": "Second"
           }
         ]
