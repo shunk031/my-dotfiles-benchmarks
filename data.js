@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776078875344,
+  "lastUpdate": 1776080810362,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3467,6 +3467,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 8.52,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1c572b9c1886026ebf5cac3918cbe23f9496780b",
+          "message": "feat(docs): add generated MkDocs docs pipeline (#405)\n\n* feat(docs): add generated MkDocs docs pipeline\n\n* style(docs): format generated docs script\n\n* fix(docs): install custom shdoc mise plugin\n\n* fix(ci): install gawk for shdoc plugin bootstrap\n\n* docs(agents): require English shdoc comments",
+          "timestamp": "2026-04-13T20:42:07+09:00",
+          "tree_id": "e7b8b1c7aa4287e669ece57a82947da486645d1d",
+          "url": "https://github.com/shunk031/dotfiles/commit/1c572b9c1886026ebf5cac3918cbe23f9496780b"
+        },
+        "date": 1776080809009,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.081,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 8.68,
             "unit": "Second"
           }
         ]
