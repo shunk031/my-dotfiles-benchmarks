@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776080810362,
+  "lastUpdate": 1776404332823,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3501,6 +3501,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 8.68,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b2b018ab59e007a564335a37b62a574ec450201f",
+          "message": "feat(macos): tap cmux cask repository before install (#385)",
+          "timestamp": "2026-04-17T14:33:06+09:00",
+          "tree_id": "b041c2c896b0c37e5d1256c2ef85b9ca89c17b20",
+          "url": "https://github.com/shunk031/dotfiles/commit/b2b018ab59e007a564335a37b62a574ec450201f"
+        },
+        "date": 1776404331685,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.156,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 7.52,
             "unit": "Second"
           }
         ]
