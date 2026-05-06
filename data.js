@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778069625016,
+  "lastUpdate": 1778070293940,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3637,6 +3637,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 7.92,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dc9e2bd4078253129a30160a4d6499bb9032a06a",
+          "message": "chore(ci): drop temporary master cutover support (#435)",
+          "timestamp": "2026-05-06T21:19:10+09:00",
+          "tree_id": "1d6fe3fbec641b3709e5b86020155f87ce3a1d52",
+          "url": "https://github.com/shunk031/dotfiles/commit/dc9e2bd4078253129a30160a4d6499bb9032a06a"
+        },
+        "date": 1778070292808,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.085,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 9.21,
             "unit": "Second"
           }
         ]
