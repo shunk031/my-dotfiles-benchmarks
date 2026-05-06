@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776404332823,
+  "lastUpdate": 1778050064087,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3535,6 +3535,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 7.52,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b577e25b243963747443be574db950164545df9d",
+          "message": "revert(docs): remove generated docs pipeline and Pages deploy (#430)",
+          "timestamp": "2026-05-06T15:42:15+09:00",
+          "tree_id": "cf9450e1793f6016937a98645aa1c8e767f3ef76",
+          "url": "https://github.com/shunk031/dotfiles/commit/b577e25b243963747443be574db950164545df9d"
+        },
+        "date": 1778050063324,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.092,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 7.63,
             "unit": "Second"
           }
         ]
