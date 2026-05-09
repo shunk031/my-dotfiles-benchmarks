@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778070293940,
+  "lastUpdate": 1778313111667,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3671,6 +3671,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 9.21,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4ff1c15990d9dc72a24d95c189739a287d227729",
+          "message": "fix(tmux): commonize allow-passthrough setting (#441)",
+          "timestamp": "2026-05-09T16:46:18+09:00",
+          "tree_id": "672ef4eb35095daf0b408847e21954f14b1e4577",
+          "url": "https://github.com/shunk031/dotfiles/commit/4ff1c15990d9dc72a24d95c189739a287d227729"
+        },
+        "date": 1778313110907,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.102,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 7.76,
             "unit": "Second"
           }
         ]
