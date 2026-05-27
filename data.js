@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778313111667,
+  "lastUpdate": 1779897595050,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3705,6 +3705,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 7.76,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "674d1d8628df4905974b977cf40e9453bb3c3fe8",
+          "message": "fix(macos): add cmux to default dock apps (#462)",
+          "timestamp": "2026-05-28T00:53:51+09:00",
+          "tree_id": "6287cb04d70cb1d1011a9c24cb92c612bb1a9e29",
+          "url": "https://github.com/shunk031/dotfiles/commit/674d1d8628df4905974b977cf40e9453bb3c3fe8"
+        },
+        "date": 1779897593607,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.091,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 10.44,
             "unit": "Second"
           }
         ]
