@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779897595050,
+  "lastUpdate": 1780848045269,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3739,6 +3739,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 10.44,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "62e967af3be66c9d1ae7e9c5f4dad5fc981d2a85",
+          "message": "feat(macos): add clop to cask packages (#466)",
+          "timestamp": "2026-06-08T00:55:59+09:00",
+          "tree_id": "cff51e40ea997baf5b4380af99f2bb3162cf4155",
+          "url": "https://github.com/shunk031/dotfiles/commit/62e967af3be66c9d1ae7e9c5f4dad5fc981d2a85"
+        },
+        "date": 1780848044074,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.08,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 6.28,
             "unit": "Second"
           }
         ]
