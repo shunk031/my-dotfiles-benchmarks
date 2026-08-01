@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780848045269,
+  "lastUpdate": 1785595113174,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3773,6 +3773,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 6.28,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5071e9481127437309d6607362c7ebd77feed565",
+          "message": "chore(deps): bump jdx/mise-action from 4 to 4.2.3 (#576)\n\nBumps [jdx/mise-action](https://github.com/jdx/mise-action) from 4 to 4.2.3.\n- [Release notes](https://github.com/jdx/mise-action/releases)\n- [Changelog](https://github.com/jdx/mise-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/jdx/mise-action/compare/v4...v4.2.3)\n\n---\nupdated-dependencies:\n- dependency-name: jdx/mise-action\n  dependency-version: 4.2.3\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-01T23:33:40+09:00",
+          "tree_id": "f9243b8a2ce1b4b2fbf197e68602d08711de7254",
+          "url": "https://github.com/shunk031/dotfiles/commit/5071e9481127437309d6607362c7ebd77feed565"
+        },
+        "date": 1785595111864,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.085,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 8.27,
             "unit": "Second"
           }
         ]
