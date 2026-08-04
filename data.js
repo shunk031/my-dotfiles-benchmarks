@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785595113174,
+  "lastUpdate": 1785856913149,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3807,6 +3807,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 8.27,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e69e34857255a6b861538a4d023617f3955d9a88",
+          "message": "fix(mise): enforce bootstrap compatibility floor (#592)\n\n* fix(mise): enforce bootstrap compatibility floor\n\n* docs(mise): document bootstrap compatibility\n\n* fix(ci): allow empty Ubuntu file test suite",
+          "timestamp": "2026-08-05T00:15:40+09:00",
+          "tree_id": "91eabee2114da53536bce98b334a0421767c4a36",
+          "url": "https://github.com/shunk031/dotfiles/commit/e69e34857255a6b861538a4d023617f3955d9a88"
+        },
+        "date": 1785856912349,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.09,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 32.2,
             "unit": "Second"
           }
         ]
