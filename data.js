@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785856913149,
+  "lastUpdate": 1786122058676,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3841,6 +3841,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 32.2,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6f6c8554211e2c37a107c2da751a76801c846331",
+          "message": "feat(agents): validate managed guidance with skill evaluations (#594)\n\n* feat(agents): evaluate managed skills with prek\n\n* test(agents): remove obsolete shared guidance assertion\n\n* fix(agents): preserve guidance migration requirements\n\n* fix(ci): fetch guidance migration source history\n\n* test(agents): align worktree guidance assertions\n\n* fix(agents): enforce single guidance ownership\n\n* test(agents): align ownership contract assertion\n\n* fix(claude): skip dangerous mode permission prompt\n\n* revert(claude): remove unrelated settings change",
+          "timestamp": "2026-08-08T01:55:13+09:00",
+          "tree_id": "f2b5be83127cf42c32c953c500b319ceae412428",
+          "url": "https://github.com/shunk031/dotfiles/commit/6f6c8554211e2c37a107c2da751a76801c846331"
+        },
+        "date": 1786122057297,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.08,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 9.23,
             "unit": "Second"
           }
         ]
