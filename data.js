@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786122058676,
+  "lastUpdate": 1786202043489,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3875,6 +3875,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 9.23,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d50f710f186aa20f3f6cc67a550cc7671c1e9ed1",
+          "message": "feat(mise): require declarative system bootstrap release (#599)\n\n* feat(mise): require declarative bootstrap release\n\n* ci(mise): pin bootstrap-compatible version\n\n* ci(mise): use bootstrapped installation\n\n* ci(mise): disable stale action cache\n\n* ci(mise): restore action cache",
+          "timestamp": "2026-08-09T00:08:13+09:00",
+          "tree_id": "f64851586845fffb873fc532b99c39879fd6e3d0",
+          "url": "https://github.com/shunk031/dotfiles/commit/d50f710f186aa20f3f6cc67a550cc7671c1e9ed1"
+        },
+        "date": 1786202041987,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.142,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 10.47,
             "unit": "Second"
           }
         ]
