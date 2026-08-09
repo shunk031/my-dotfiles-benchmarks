@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786202043489,
+  "lastUpdate": 1786242738383,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3909,6 +3909,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 10.47,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "482135a44a6a6e521afd84e2d01853453cedb0df",
+          "message": "ci(mise): reuse bootstrapped installation (#601)",
+          "timestamp": "2026-08-09T11:26:20+09:00",
+          "tree_id": "be1cec8c3ae4c2690aea532f2756d1884f342e94",
+          "url": "https://github.com/shunk031/dotfiles/commit/482135a44a6a6e521afd84e2d01853453cedb0df"
+        },
+        "date": 1786242736936,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.098,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 10.24,
             "unit": "Second"
           }
         ]
