@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786346652360,
+  "lastUpdate": 1786354834873,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3977,6 +3977,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 10.02,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aefb5c7b9dc4f58314b75a908d5790cb2425866f",
+          "message": "refactor(tooling): remove legacy proxy tooling (#611)\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-08-10T18:33:34+09:00",
+          "tree_id": "4fc8ac0a0219d41e91065701d2bc54378678dc4a",
+          "url": "https://github.com/shunk031/dotfiles/commit/aefb5c7b9dc4f58314b75a908d5790cb2425866f"
+        },
+        "date": 1786354833653,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.105,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 6.91,
             "unit": "Second"
           }
         ]
