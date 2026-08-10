@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786242738383,
+  "lastUpdate": 1786346652360,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -3943,6 +3943,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 10.24,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5a06021e4894468d4511588f5f99ab3dbac362ca",
+          "message": "feat(mise): add fnox for Codex authentication (#609)\n\n* feat(mise): add fnox for codex authentication\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* test(mise): avoid tomllib in fnox assertion\n\nCo-authored-by: Codex <noreply@openai.com>\n\n---------\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-08-10T16:19:10+09:00",
+          "tree_id": "05d8fe79af8344b8a8fe738012abc11d09e82fbb",
+          "url": "https://github.com/shunk031/dotfiles/commit/5a06021e4894468d4511588f5f99ab3dbac362ca"
+        },
+        "date": 1786346650845,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.08,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 10.02,
             "unit": "Second"
           }
         ]
