@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786354834873,
+  "lastUpdate": 1786584774554,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4011,6 +4011,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 6.91,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "61a8061f11c6c83db516c44b360a8051ecc3d16c",
+          "message": "feat: generate RTK integrations during setup (#616)\n\n* feat: add rtk to agent workflows\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* feat(rtk): align quick-start guidance across agents\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* feat(rtk): generate integrations during setup\n\nMove RTK-generated files out of chezmoi source and initialize supported agent integrations after apply.\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix(rtk): make the installer standalone\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* refactor(rtk): follow common installer wiring\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix(rtk): align installer documentation\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* docs(rtk): remove generated-file notes\n\nCo-authored-by: Codex <noreply@openai.com>\n\n---------\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-08-13T10:26:42+09:00",
+          "tree_id": "b46881ff1bacb17f38d37bf5403adbcb88ce1295",
+          "url": "https://github.com/shunk031/dotfiles/commit/61a8061f11c6c83db516c44b360a8051ecc3d16c"
+        },
+        "date": 1786584773268,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.119,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 7.1,
             "unit": "Second"
           }
         ]
