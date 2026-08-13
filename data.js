@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786584774554,
+  "lastUpdate": 1786591350819,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4045,6 +4045,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 7.1,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4a5ae05dc3538d01189370143535431c773b3a0e",
+          "message": "Revert \"feat: generate RTK integrations during setup (#616)\" (#621)\n\nThis reverts commit 61a8061f11c6c83db516c44b360a8051ecc3d16c.\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-08-13T12:17:31+09:00",
+          "tree_id": "4fe7bdc97b2991b8b4a3297609eeb2f2ea2e723f",
+          "url": "https://github.com/shunk031/dotfiles/commit/4a5ae05dc3538d01189370143535431c773b3a0e"
+        },
+        "date": 1786591349581,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.081,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 6.93,
             "unit": "Second"
           }
         ]
