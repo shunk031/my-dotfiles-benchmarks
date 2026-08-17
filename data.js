@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786591350819,
+  "lastUpdate": 1786965823957,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4079,6 +4079,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 6.93,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ebe074ee6cc201b7d87c8d5deb42f09ba39db91d",
+          "message": "feat(herdr): sync upstream skill from installed binary (#647)\n\n* feat(herdr): sync upstream skill\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* test(herdr): account for skill availability probe\n\nCo-authored-by: Codex <noreply@openai.com>\n\n---------\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-08-17T20:18:26+09:00",
+          "tree_id": "f5e5bab6f4dc304a6470625b686cba0cf16c0ca5",
+          "url": "https://github.com/shunk031/dotfiles/commit/ebe074ee6cc201b7d87c8d5deb42f09ba39db91d"
+        },
+        "date": 1786965823072,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.09,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 7.3,
             "unit": "Second"
           }
         ]
