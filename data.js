@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787664195404,
+  "lastUpdate": 1787677851501,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4147,6 +4147,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 51.89,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8ace082039f1e187d39f64827e8e2167217d98cf",
+          "message": "feat(guidance): switch the instructions eval gate to shuhari (#665)\n\n* feat(guidance): switch the instructions eval gate to shuhari\n\nMove user-guidance evaluation from `scripts/agent_guidance_eval.py` to\n`shuhari eval instructions`. This is a switch rather than an addition:\n`AGENTS.evals.json` is converted to shuhari's schema, which the Python\nharness cannot read, so every other change here follows from that one.\n\nThe schema drops `version`, `guidance`, and per-case `should_trigger`,\nrenames the target key to `instructions_name`, and makes `expected_output`\nrequired, so each of the five cases gains one.\n\nThe `ordinary-implementation-publish-lifecycle` prompt told the agent to\nread `.agents/AGENTS.md`. That was the Python harness's staging path;\nshuhari's Codex harness writes the file to `AGENTS.md` at the workspace\nroot. Left alone the case would have failed on a missing file instead of\non the behaviour under test.\n\nBecause the Python harness can no longer parse the guidance evals, it stops\nclaiming guidance as a target. Narrowing the two `agent-guidance-*` hook\npatterns to `skills/` is not enough on its own: staging guidance together\nwith a skill would still fire the skills hook, which then resolves guidance\nthrough `--staged` and fails. The in-tree skills keep that harness and their\ngate unchanged.\n\nAlso fixes two Pyright errors that predate this change. They are one root\ncause: `codex_settings_kwargs` returned `dict[str, str]`, so at the\n`**` unpack site every keyword widened to `str` and the non-`str`\nparameters `schema: Path | None` and `search: bool` looked like type\nerrors. A `CodexSettings` TypedDict gives the unpack known keys.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* chore(gitignore): never commit shuhari workspace artifacts\n\nRunning `shuhari eval instructions` writes `<target>-workspace/` beside the\nevaluated target, which for this repository's guidance lands at\n`home/dot_config/user-guidance-workspace/`. Those directories hold verbatim\nagent transcripts and nothing here excluded them, so a single `git add -A`\nwould have committed them.\n\nMatched repository-wide rather than at the one observed path, because the\nlocation follows whatever target shuhari is pointed at next.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+          "timestamp": "2026-08-26T02:05:13+09:00",
+          "tree_id": "5f151f97274504341e18f689d82e3de2586d46b6",
+          "url": "https://github.com/shunk031/dotfiles/commit/8ace082039f1e187d39f64827e8e2167217d98cf"
+        },
+        "date": 1787677850652,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.084,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 9.74,
             "unit": "Second"
           }
         ]
