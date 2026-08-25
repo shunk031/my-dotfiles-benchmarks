@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786965823957,
+  "lastUpdate": 1787664195404,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4113,6 +4113,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 7.3,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a931dc934823fe7bf6fe84da9e5c3d4b4ce46720",
+          "message": "feat(mise): manage textlint tools (#667)\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-08-25T22:16:13+09:00",
+          "tree_id": "896c8fa9d37547b2ab2a84d2b052011901c44a16",
+          "url": "https://github.com/shunk031/dotfiles/commit/a931dc934823fe7bf6fe84da9e5c3d4b4ce46720"
+        },
+        "date": 1787664193973,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.126,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 51.89,
             "unit": "Second"
           }
         ]
