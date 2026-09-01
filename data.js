@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788241273079,
+  "lastUpdate": 1788254524497,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4215,6 +4215,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 8.72,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b88a7970e1ed0843b97c45c557b5671a66e2e2b8",
+          "message": "feat(macos): install ChatGPT app (#697)\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-09-01T18:16:58+09:00",
+          "tree_id": "358c43eac16bed7dc52fb0fa2e42d28b501911dc",
+          "url": "https://github.com/shunk031/dotfiles/commit/b88a7970e1ed0843b97c45c557b5671a66e2e2b8"
+        },
+        "date": 1788254523326,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.08,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 7,
             "unit": "Second"
           }
         ]
