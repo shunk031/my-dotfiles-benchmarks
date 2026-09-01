@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787677851501,
+  "lastUpdate": 1788241273079,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4181,6 +4181,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 9.74,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "719d2d2469e249f153de20c432138d29e2c4df8e",
+          "message": "feat(macos): add 1Password to Dock\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-09-01T14:36:02+09:00",
+          "tree_id": "0e21dba89fa356ff14290f321cc08323f66f1148",
+          "url": "https://github.com/shunk031/dotfiles/commit/719d2d2469e249f153de20c432138d29e2c4df8e"
+        },
+        "date": 1788241272242,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.091,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 8.72,
             "unit": "Second"
           }
         ]
