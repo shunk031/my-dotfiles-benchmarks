@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788254524497,
+  "lastUpdate": 1788860738688,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4249,6 +4249,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 7,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "300129328+shunk031-renovate[bot]@users.noreply.github.com",
+            "name": "shunk031-renovate[bot]",
+            "username": "shunk031-renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c5a2a7409e84b89829b4f55c2ac75c5294887e61",
+          "message": "chore(deps): update mise tools (#596)\n\n* chore(deps): update mise tools\n\n* test: allow prek version updates\n\nKeep the requirement for an exact semantic version without duplicating the current tool version in the test.\n\nCo-authored-by: Codex <noreply@openai.com>\n\n---------\n\nCo-authored-by: shunk031-renovate[bot] <300129328+shunk031-renovate[bot]@users.noreply.github.com>\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-09-08T18:39:51+09:00",
+          "tree_id": "5440cf0e0922447172abf4596bb4c627ba2821f8",
+          "url": "https://github.com/shunk031/dotfiles/commit/c5a2a7409e84b89829b4f55c2ac75c5294887e61"
+        },
+        "date": 1788860737420,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.123,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 11.17,
             "unit": "Second"
           }
         ]
