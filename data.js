@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788860738688,
+  "lastUpdate": 1788861844036,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4283,6 +4283,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 11.17,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "300129328+shunk031-renovate[bot]@users.noreply.github.com",
+            "name": "shunk031-renovate[bot]",
+            "username": "shunk031-renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dad84d00dba95a95abd1e27d7cc129352117dd5c",
+          "message": "chore(deps): update agent tooling (#595)\n\n* chore(deps): update agent tooling\n\n* fix(tests): accept Renovate fnox updates\n\nCo-authored-by: Codex <noreply@openai.com>\n\n---------\n\nCo-authored-by: shunk031-renovate[bot] <300129328+shunk031-renovate[bot]@users.noreply.github.com>\nCo-authored-by: Shunsuke KITADA <shunsuke.kitada.0831@gmail.com>\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-09-08T18:58:14+09:00",
+          "tree_id": "69b1907629d7253adc6484348565bf34991d5406",
+          "url": "https://github.com/shunk031/dotfiles/commit/dad84d00dba95a95abd1e27d7cc129352117dd5c"
+        },
+        "date": 1788861842829,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.088,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 9.11,
             "unit": "Second"
           }
         ]
