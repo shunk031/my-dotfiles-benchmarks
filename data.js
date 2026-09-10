@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788861844036,
+  "lastUpdate": 1789034473298,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4317,6 +4317,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 9.11,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b2031281d579ec68adb2cfb07e720699e39b31b1",
+          "message": "fix(mise): require v2026.8.15 for npm install repair\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-09-10T18:54:47+09:00",
+          "tree_id": "e30b39f121f70f5cad02a05da00de49b6ea12c39",
+          "url": "https://github.com/shunk031/dotfiles/commit/b2031281d579ec68adb2cfb07e720699e39b31b1"
+        },
+        "date": 1789034472311,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.161,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 10.16,
             "unit": "Second"
           }
         ]
