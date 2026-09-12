@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789188782157,
+  "lastUpdate": 1789193967114,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4385,6 +4385,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 9.28,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "03790b4a47de89f8d34598cc04c354029ac93288",
+          "message": "fix(renovate): keep fnox out of day-zero updates (#721)\n\n`chezmoi apply` failed because Renovate pinned fnox 1.35.1 on its release day\nwhile mise's `minimum_release_age = \"7d\"` refused to install it. The two\nconfigurations disagreed about how long to wait before adopting a release.\n\nTighten Renovate rather than loosen mise: fnox is the credential store, and the\ncooling-off period covers the compromised-maintainer case that signature and\ntransparency-log verification cannot. Remove fnox from the `agent tooling`\nday-zero group so it takes the normal wait through the `mise tools` group.\n\nRevert the fnox pin to 1.34.1 as the immediate unblock. It resolves through the\n`github:jdx/fnox` backend and installs everywhere today; Renovate re-proposes\n1.35.1 once it clears the seven-day wait.\n\nAdd `herdr` to `minimum_release_age_excludes` so the list mirrors the day-zero\ngroup, and guard that mirror with one assertion in `renovate.bats` so the two\nfiles cannot drift apart again.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+          "timestamp": "2026-09-12T15:14:30+09:00",
+          "tree_id": "e4911b57cd1440189ee78feb21e04befe4266996",
+          "url": "https://github.com/shunk031/dotfiles/commit/03790b4a47de89f8d34598cc04c354029ac93288"
+        },
+        "date": 1789193966273,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.168,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 6.9,
             "unit": "Second"
           }
         ]
