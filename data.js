@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789034473298,
+  "lastUpdate": 1789188782157,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4351,6 +4351,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 10.16,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc2fb7e6100f9fa37e2190b4602f594c78c1d5af",
+          "message": "fix(mise): install Python from precompiled binaries only (#720)\n\n* fix(mise): install Python from precompiled binaries only\n\nWithout `python.compile`, mise falls back to building CPython from source\nwith python-build when no precompiled binary is selected. On hosts that\nlack the python-build dependency set, this silently produces an\ninterpreter without `_ssl`, `zlib`, `sqlite3`, `_ctypes`, and other\nstdlib extension modules, so every HTTPS request fails at runtime.\n\nSet `python.compile = false` so mise installs python-build-standalone\nbinaries only and fails loudly when one is unavailable, mirroring the\nexisting `ruby.compile = false`.\n\nCo-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\n\n* refactor(mise): group settings by concern\n\nSplit the `[settings]` block into three commented groups: version files,\nrelease policy, and language runtimes. Keep `minimum_release_age` next to\n`minimum_release_age_excludes`, and express the compile toggles as\n`[settings.python]` and `[settings.ruby]` sub-tables.\n\nNo values change. The parsed `[settings]` table is identical before and\nafter.\n\nCo-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\n\n---------\n\nCo-authored-by: Claude Fable 5.1 <noreply@anthropic.com>",
+          "timestamp": "2026-09-12T13:48:16+09:00",
+          "tree_id": "10e6cd70e8cf89da57142f82f0084446982ebed3",
+          "url": "https://github.com/shunk031/dotfiles/commit/bc2fb7e6100f9fa37e2190b4602f594c78c1d5af"
+        },
+        "date": 1789188780924,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.08,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 9.28,
             "unit": "Second"
           }
         ]
