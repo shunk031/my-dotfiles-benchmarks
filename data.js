@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789283565015,
+  "lastUpdate": 1789284155434,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4521,6 +4521,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 6.35,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "300129328+shunk031-renovate[bot]@users.noreply.github.com",
+            "name": "shunk031-renovate[bot]",
+            "username": "shunk031-renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7dba260c5f38b851bd98fdaf3f1084b800f8a60b",
+          "message": "chore(deps): update mise tools (#710)\n\nCo-authored-by: shunk031-renovate[bot] <300129328+shunk031-renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-09-13T16:16:33+09:00",
+          "tree_id": "e14baf97e106919bc02eb06b3391b252a358a9e9",
+          "url": "https://github.com/shunk031/dotfiles/commit/7dba260c5f38b851bd98fdaf3f1084b800f8a60b"
+        },
+        "date": 1789284154612,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.108,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 11.04,
             "unit": "Second"
           }
         ]
