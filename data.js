@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789193967114,
+  "lastUpdate": 1789268068653,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4419,6 +4419,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 6.9,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9fff6074f76a0ca94e25992c56b14bf7b1b98ed4",
+          "message": "Run Linux unit tests in Ubuntu and Rocky containers (#722)\n\n* ci: test Ubuntu and Rocky inside Linux containers\n\nRun the shared unit-test layers in official Ubuntu 26.04 and Rocky Linux 9 job containers. Keep the existing required matrix checks and dispatch OS-specific Bats suites through an explicit TARGET_OS variable.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* ci: align container tools with runner assumptions\n\nInstall GitHub CLI from its official package repositories in both container images and export the existing workflow token. Remove the distribution-independent container shfmt gate and its Rocky-only binary bootstrap. Keep the runner reviewdog check as the single formatting gate.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* ci: run container unit tests with image root\n\nRun the container unit-test layers as the image root so Ubuntu package-management tests and Rocky GitHub CLI state use the installed container environment directly. Remove the fake sudo, non-root user, and setpriv indirection that assumed runner-like privilege behavior.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* ci: preserve Rocky dependency test seam in containers\n\nUse sudo when it is available in the Rocky dependency helper, including for root container jobs, while retaining a direct dnf fallback for minimal root hosts. Install sudo before the helper runs so the existing dependency unit tests and the real container setup exercise the same path.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix(dependencies): install compiler toolchains for tpm\n\nInstall gcc, g++, and make through the Ubuntu and Rocky common dependency scripts so the tmux-mem-cpu-load build follows the real machine setup path. Remove the CI-only make packages and update strict dependency assertions.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix(rocky): preserve root dnf routing in dependency tests\n\nRestore the EUID-based direct dnf path and strengthen the Rocky dependency tests for root and non-root callers. Add coverage for the unsupported TARGET_OS branch without running a real Bats suite.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* test(rocky): assert sudo fallback without exact output coupling\n\nKeep the non-root dnf test strict about the sudo command and arguments while tolerating the container's surrounding command output. Declare the Bats version required by the separate stderr assertion.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* Restructure unit workflow by operating system\n\nReplace the test and container matrices with readable macOS, Ubuntu, and Rocky jobs. Run Ubuntu and Rocky suites inside their official images, keep formatting in the Ubuntu job, and remove the obsolete SYSTEM dispatch dimension.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* Minimize CI package manager transactions\n\nCombine container test-tool installation into two package-manager transactions per distribution while preserving the official GitHub CLI repositories and real dependency-script paths.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* Restructure CI steps and unify coverage gating\n\nMatch the existing CI step granularity by consolidating each OS install path\nand use the native coverage report condition in every upload step.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* Minimize macOS Homebrew transactions\n\nInstall all macOS CI tools in one Homebrew transaction while preserving the\nexisting bashcov and Codecov setup.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* Consolidate CI comment blocks\n\nKeep one explanatory comment per logical shell block in the macOS and Ubuntu\nunit-test jobs while preserving the existing commands and workflow behavior.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* Run shfmt in a dedicated job\n\nKeep formatting checks on a plain runner with repository metadata while giving\nall distribution-specific unit-test jobs the same six-step structure.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* Clean up workflow path filters and job ordering\n\nValidate workflow path filters with a standard-library unittest and run distribution jobs after the dedicated formatter job.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* Normalize OS unit test steps\n\nKeep shared Python, shell coverage, and Codecov steps identical across macOS, Ubuntu, and Rocky while isolating the macOS Bash path.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* Harden workflow path filter validation\n\nKeep comments inside paths sequences, reject vacuous parses, and cover mismatched and missing fixture paths.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\n\nCo-authored-by: Codex <noreply@openai.com>\n\n---------\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-09-13T11:47:47+09:00",
+          "tree_id": "3709f6de75ead3b730cb2b8e5175afb4a4d0f62e",
+          "url": "https://github.com/shunk031/dotfiles/commit/9fff6074f76a0ca94e25992c56b14bf7b1b98ed4"
+        },
+        "date": 1789268067714,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.214,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 7.43,
             "unit": "Second"
           }
         ]
