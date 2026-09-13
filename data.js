@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789268068653,
+  "lastUpdate": 1789277587246,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4453,6 +4453,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 7.43,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b8f8d36fe977824be80ba16c25d9b80ee73b77f4",
+          "message": "ci: align end-to-end workflow layouts (#723)\n\n* ci: align end-to-end workflow jobs\n\nSplit the Linux and snippet workflows into explicit jobs and add fresh-container server coverage.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* ci: containerize Ubuntu client workflows\n\nRun Ubuntu client and snippet Linux jobs in the same fresh-image recipe as server jobs.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix: make container bootstrap runnable on base images\n\nCorrect the setup download quoting, avoid Rocky curl-minimal conflicts, and use the available Bats options.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix: handle empty Ubuntu file test suites\n\nKeep the common file check strict while skipping only the currently empty distro suite.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* ci: split OS workflows and harden container setup\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* ci: avoid Rocky curl package conflict\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* ci: enable Rocky dependency repository\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix: generate Rocky SSH host keys\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix: configure Rocky locale without systemd\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* test: update workflow references for OS split\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* refactor: name workflows by purpose\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* test: exercise Rocky locale write path\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix: preserve Rocky locale settings\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* test: cover missing Rocky locale config\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix: verify container system configuration\n\nShow the timezone and locale results after setup in each Rocky job and both Ubuntu jobs. Clean the temporary locale configuration file on every function return while retaining sudo install.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix: simplify Rocky locale rewrite\n\nBuild the preserved locale configuration in memory and write it once through sudo tee. Let the Ubuntu end-to-end setup exercise its production timezone configuration.\n\nClaude-Session: https://claude.ai/code/session_018BYGxLCyBodua2WczGJcnr\nCo-authored-by: Codex <noreply@openai.com>\n\n---------\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-09-13T14:27:20+09:00",
+          "tree_id": "6c2d3b13bc8e67f86416ada3833fae93c89d7514",
+          "url": "https://github.com/shunk031/dotfiles/commit/b8f8d36fe977824be80ba16c25d9b80ee73b77f4"
+        },
+        "date": 1789277586366,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.113,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 8.71,
             "unit": "Second"
           }
         ]
