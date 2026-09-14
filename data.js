@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789284155434,
+  "lastUpdate": 1789350802006,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4555,6 +4555,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 11.04,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "300129328+shunk031-renovate[bot]@users.noreply.github.com",
+            "name": "shunk031-renovate[bot]",
+            "username": "shunk031-renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "be297143c25c96e43e40490dc26dfb7dede05eb4",
+          "message": "chore(deps): update dependency aqua:mvdan/sh to v3.14.1 (#732)\n\nCo-authored-by: shunk031-renovate[bot] <300129328+shunk031-renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-09-14T10:47:34+09:00",
+          "tree_id": "9f52e362883d4309c21aadde1b5fa9f9ff4cbb5a",
+          "url": "https://github.com/shunk031/dotfiles/commit/be297143c25c96e43e40490dc26dfb7dede05eb4"
+        },
+        "date": 1789350801093,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.115,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 5.96,
             "unit": "Second"
           }
         ]
