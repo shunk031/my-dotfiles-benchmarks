@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789350802006,
+  "lastUpdate": 1789354513304,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4589,6 +4589,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 5.96,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e7df30a31dbbba9e86fe944b3b6550eedd059809",
+          "message": "fix(iterm2): stabilize preferences source path\n\nKeep iTerm2 preferences anchored to the canonical tilde-based source path and reconcile stale worktree references after each apply.\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-09-14T11:49:32+09:00",
+          "tree_id": "bbd2aad93df4bab8e22438e95ffd905b0752d4e1",
+          "url": "https://github.com/shunk031/dotfiles/commit/e7df30a31dbbba9e86fe944b3b6550eedd059809"
+        },
+        "date": 1789354512350,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.137,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 7.93,
             "unit": "Second"
           }
         ]
