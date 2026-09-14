@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789354513304,
+  "lastUpdate": 1789366559130,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4623,6 +4623,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 7.93,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7a6e0070474e7e08d031e584b950599ba83e4e1f",
+          "message": "feat(textlint): flag AI-like Japanese wording (#733)\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-09-14T15:10:26+09:00",
+          "tree_id": "b785cd784f511de49fe55eeda13e90b6d0388b25",
+          "url": "https://github.com/shunk031/dotfiles/commit/7a6e0070474e7e08d031e584b950599ba83e4e1f"
+        },
+        "date": 1789366557660,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.148,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 9.51,
             "unit": "Second"
           }
         ]
