@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789987945504,
+  "lastUpdate": 1789996700198,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4759,6 +4759,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 9.59,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ac21d9d99b177edc6fd09486f2823a49958a83f0",
+          "message": "fix(herdr): repair integrations during chezmoi apply (#752)\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-09-21T22:10:39+09:00",
+          "tree_id": "6f685b89140a511f8083ca67faef2e511ff63599",
+          "url": "https://github.com/shunk031/dotfiles/commit/ac21d9d99b177edc6fd09486f2823a49958a83f0"
+        },
+        "date": 1789996699286,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.22,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 9.6,
             "unit": "Second"
           }
         ]
