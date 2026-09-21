@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789973917058,
+  "lastUpdate": 1789987945504,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4725,6 +4725,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 11.24,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d1227a6d7e9e906fbe60cbe3a8cb367170773555",
+          "message": "feat(guidance): align evaluation gates with current policy (#747)\n\nReconcile current main with the guidance evaluation-gate changes.\n\nThe pushed merge commit preserves the current guidance workflow headings and integrates the six-file PR delta. Required checks and Codecov completed successfully on the exact head. Local Bats and live Shuhari/model evaluation were not run under repository policy and the explicit cost waiver.\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-09-21T19:46:12+09:00",
+          "tree_id": "8f620559661c9b46b9e2b4eca7789289a2add6bb",
+          "url": "https://github.com/shunk031/dotfiles/commit/d1227a6d7e9e906fbe60cbe3a8cb367170773555"
+        },
+        "date": 1789987944438,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.172,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 9.59,
             "unit": "Second"
           }
         ]
