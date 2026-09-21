@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789606096352,
+  "lastUpdate": 1789973917058,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4691,6 +4691,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 6.65,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7045ab7f5a183c80632c061f7dce08839130c2b9",
+          "message": "refactor(linux): rename shared OS paths (#756)\n\nRename shared Linux chezmoi and tmux paths that were labeled Ubuntu. Keep Ubuntu-specific install scripts and workflows unchanged.\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-09-21T15:52:14+09:00",
+          "tree_id": "06e720278074185e223e635a7edd108ba8197b64",
+          "url": "https://github.com/shunk031/dotfiles/commit/7045ab7f5a183c80632c061f7dce08839130c2b9"
+        },
+        "date": 1789973916238,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.223,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 11.24,
             "unit": "Second"
           }
         ]
