@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790521923064,
+  "lastUpdate": 1790696819756,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4861,6 +4861,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 8.87,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e2370500476619dbfa40047f5ad16e0161106baa",
+          "message": "feat(mise): install apm\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-09-30T00:41:15+09:00",
+          "tree_id": "9644b51e04da082badeb1b5d7b06234b2890377f",
+          "url": "https://github.com/shunk031/dotfiles/commit/e2370500476619dbfa40047f5ad16e0161106baa"
+        },
+        "date": 1790696817892,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.16,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 12.44,
             "unit": "Second"
           }
         ]
