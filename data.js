@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790696819756,
+  "lastUpdate": 1790870921016,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4895,6 +4895,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 12.44,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7876851223c1e6263fba7ccee55fb1aa5239823e",
+          "message": "feat(mise): add Google Colab CLI and skill",
+          "timestamp": "2026-10-02T01:01:41+09:00",
+          "tree_id": "96b690b0ad649a8b20cc06c0f04da4d4b17282af",
+          "url": "https://github.com/shunk031/dotfiles/commit/7876851223c1e6263fba7ccee55fb1aa5239823e"
+        },
+        "date": 1790870920272,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.13,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 10.08,
             "unit": "Second"
           }
         ]
