@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790870921016,
+  "lastUpdate": 1790920494999,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4929,6 +4929,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 10.08,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "57781adb1513757d8a2e6c654547448261991009",
+          "message": "chore(macos): stop installing Spotify (#767)\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-10-02T14:48:48+09:00",
+          "tree_id": "9226ec7ce466f5261f6a61316b77a6945874a8c7",
+          "url": "https://github.com/shunk031/dotfiles/commit/57781adb1513757d8a2e6c654547448261991009"
+        },
+        "date": 1790920494235,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.151,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 8.39,
             "unit": "Second"
           }
         ]
