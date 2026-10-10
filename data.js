@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790920494999,
+  "lastUpdate": 1791635738597,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4963,6 +4963,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 8.39,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "300129328+shunk031-renovate[bot]@users.noreply.github.com",
+            "name": "shunk031-renovate[bot]",
+            "username": "shunk031-renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "369ceded0d908e0e1dd9dc768be978ff634fc537",
+          "message": "chore(deps): update dependency npm:skills to v1.5.24 (#735)\n\nCo-authored-by: shunk031-renovate[bot] <300129328+shunk031-renovate[bot]@users.noreply.github.com>\nCo-authored-by: Shunsuke KITADA <shunsuke.kitada.0831@gmail.com>",
+          "timestamp": "2026-10-10T21:29:01+09:00",
+          "tree_id": "c131f419ec28e1fe6f9d40c2b17cb487d3ecdf0c",
+          "url": "https://github.com/shunk031/dotfiles/commit/369ceded0d908e0e1dd9dc768be978ff634fc537"
+        },
+        "date": 1791635737740,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.198,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 8.47,
             "unit": "Second"
           }
         ]
