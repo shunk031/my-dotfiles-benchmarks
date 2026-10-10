@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791637025502,
+  "lastUpdate": 1791637573569,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5031,6 +5031,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 9.63,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a66deddcb9224e7ea1601f19dba8a1060a755fab",
+          "message": "feat(macos): prefer tabs over new Finder windows (#773)\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-10-10T21:59:31+09:00",
+          "tree_id": "31a142ff0d009dd7e9cdfadb16161571a82d7a2b",
+          "url": "https://github.com/shunk031/dotfiles/commit/a66deddcb9224e7ea1601f19dba8a1060a755fab"
+        },
+        "date": 1791637572767,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.123,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 7.94,
             "unit": "Second"
           }
         ]
