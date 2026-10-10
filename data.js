@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791635738597,
+  "lastUpdate": 1791637025502,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -4997,6 +4997,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 8.47,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "300129328+shunk031-renovate[bot]@users.noreply.github.com",
+            "name": "shunk031-renovate[bot]",
+            "username": "shunk031-renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "068e16c1a5015a055bc7cac290897cb31963f324",
+          "message": "chore(deps): update agent tooling (#761)\n\nCo-authored-by: shunk031-renovate[bot] <300129328+shunk031-renovate[bot]@users.noreply.github.com>\nCo-authored-by: Shunsuke KITADA <shunsuke.kitada.0831@gmail.com>",
+          "timestamp": "2026-10-10T21:50:28+09:00",
+          "tree_id": "672fd9286a92dfaff74738e86b3f208595732500",
+          "url": "https://github.com/shunk031/dotfiles/commit/068e16c1a5015a055bc7cac290897cb31963f324"
+        },
+        "date": 1791637024752,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.195,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 9.63,
             "unit": "Second"
           }
         ]
