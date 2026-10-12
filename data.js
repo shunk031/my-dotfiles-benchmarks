@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791637573569,
+  "lastUpdate": 1791786753157,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5065,6 +5065,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 7.94,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a3257d780ee3811183b702252cf8cdab340157ec",
+          "message": "feat(mise): add 1Password CLI (#777)\n\n* feat(mise): add 1Password CLI\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix(mise): use Aqua 1Password CLI package\n\nCo-authored-by: Codex <noreply@openai.com>\n\n---------\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-10-12T15:27:50+09:00",
+          "tree_id": "65c8f46d105ed13336b63e3493f7ef542d376a62",
+          "url": "https://github.com/shunk031/dotfiles/commit/a3257d780ee3811183b702252cf8cdab340157ec"
+        },
+        "date": 1791786752550,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.103,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 6.15,
             "unit": "Second"
           }
         ]
