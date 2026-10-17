@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791786753157,
+  "lastUpdate": 1792209106784,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5099,6 +5099,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 6.15,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2d2a44f2ca1a93a92536d24e965dbb534ca3b838",
+          "message": "chore: remove Shuhari guidance gate (#782)\n\n* chore: remove Shuhari guidance gate\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix: run jq through mise in plugin setup\n\nCo-authored-by: Codex <noreply@openai.com>\n\n---------\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-10-17T12:45:42+09:00",
+          "tree_id": "9258b72e4b0c8225e5bcb6080436e9d1130a267c",
+          "url": "https://github.com/shunk031/dotfiles/commit/2d2a44f2ca1a93a92536d24e965dbb534ca3b838"
+        },
+        "date": 1792209105868,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.155,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 7.47,
             "unit": "Second"
           }
         ]
