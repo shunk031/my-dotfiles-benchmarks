@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792551011239,
+  "lastUpdate": 1792633595792,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5201,6 +5201,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 13.77,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ea7457198394372982fae91e4ae8c84bf9124a69",
+          "message": "chore(claude): pin ccstatusline version (#792)\n\nCurrent state: Claude Code statusline invokes mise-pinned `ccstatusline` 2.2.32, removing per-refresh `npx ccstatusline@latest`; the existing settings path remains in use and no user-owned settings were touched.\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-10-22T10:40:06+09:00",
+          "tree_id": "92ba53d56e821a841896c06cfaa37687a3206841",
+          "url": "https://github.com/shunk031/dotfiles/commit/ea7457198394372982fae91e4ae8c84bf9124a69"
+        },
+        "date": 1792633594822,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.211,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 7.5,
             "unit": "Second"
           }
         ]
