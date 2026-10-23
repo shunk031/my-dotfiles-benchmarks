@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792633595792,
+  "lastUpdate": 1792728761715,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5235,6 +5235,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 7.5,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "01a49bb686e9f816afe9d7dc31447dd5f8b17265",
+          "message": "feat(mise): refresh Codex model catalog after setup (#768)\n\n* feat(mise): refresh Codex model catalog after setup\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix(mise): skip catalog refresh in GitHub Actions\n\nCo-authored-by: Codex <noreply@openai.com>\n\n---------\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-10-23T13:07:12+09:00",
+          "tree_id": "46013c9d6aac56422fb0eca41ae69aa9b2a99024",
+          "url": "https://github.com/shunk031/dotfiles/commit/01a49bb686e9f816afe9d7dc31447dd5f8b17265"
+        },
+        "date": 1792728761035,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.247,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 6.85,
             "unit": "Second"
           }
         ]
