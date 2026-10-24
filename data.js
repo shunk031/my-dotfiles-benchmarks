@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792728761715,
+  "lastUpdate": 1792830695995,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5269,6 +5269,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 6.85,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5d001190f8359b194324e4b76f97ed96632ab7ec",
+          "message": "Preserve Claude Code runtime settings with modify_ (#798)\n\n* feat(claude): preserve runtime settings with modify_\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix(claude): use chezmoi parser during initial apply\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix(claude): sync managed prompt hook command\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* test(claude): cover symlink settings migration\n\nCo-authored-by: Codex <noreply@openai.com>\n\n---------\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-10-24T17:24:35+09:00",
+          "tree_id": "22e0b6f6a824c839b22242639d3b48cba6aaaa08",
+          "url": "https://github.com/shunk031/dotfiles/commit/5d001190f8359b194324e4b76f97ed96632ab7ec"
+        },
+        "date": 1792830695193,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.212,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 6.65,
             "unit": "Second"
           }
         ]
