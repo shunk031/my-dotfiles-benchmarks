@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792830695995,
+  "lastUpdate": 1792909653529,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5303,6 +5303,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 6.65,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e5b011ff43a55b2cbef004f21561371d5ce87786",
+          "message": "fix(codex): align private directory modes (#806)\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-10-25T15:19:23+09:00",
+          "tree_id": "fdee9b6422ee44ffe24a3f2668146568aaa436b0",
+          "url": "https://github.com/shunk031/dotfiles/commit/e5b011ff43a55b2cbef004f21561371d5ce87786"
+        },
+        "date": 1792909652807,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.33,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 9.37,
             "unit": "Second"
           }
         ]
