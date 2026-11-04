@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792909653529,
+  "lastUpdate": 1793774719056,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5337,6 +5337,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 9.37,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "493b3769f92fc23edca22e64c08cdb9305a4ac6e",
+          "message": "Make chezmoi apply modes and source adapters deterministic (#810)\n\n* fix(chezmoi): make apply modes and adapters deterministic\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* test(chezmoi): expect rendered hook files in Bats\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix(chezmoi): preserve runtime files before directory migration\n\nAdd an apply guard and verified migration path for legacy source-linked agent directories, with regression coverage across all five destinations.\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix migration race when source changes during staging\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* document migration race window\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix: retain runtime files across migration races\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* docs: move design record into PR description\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* docs: trim nonessential adapter explanation\n\nCo-authored-by: Codex <noreply@openai.com>\n\n---------\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-11-04T15:38:06+09:00",
+          "tree_id": "79c3d6c92a6b4f9c881375e2294df8fb4209f9e4",
+          "url": "https://github.com/shunk031/dotfiles/commit/493b3769f92fc23edca22e64c08cdb9305a4ac6e"
+        },
+        "date": 1793774718231,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.243,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 8.51,
             "unit": "Second"
           }
         ]
