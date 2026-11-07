@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794048800288,
+  "lastUpdate": 1794069470385,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5439,6 +5439,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 8.76,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "42efb021e0018bcacbdd13a9351c2a519040cfc3",
+          "message": "ci: cancel superseded pull request runs (#830)\n\nClaude-Session: https://claude.ai/code/session_01JryNHDz4WW1JCTYoyDpGin\n\nCo-authored-by: Claude Opus 5.5 <noreply@anthropic.com>",
+          "timestamp": "2026-11-08T01:29:46+09:00",
+          "tree_id": "8913984cab9f1efb3add2839eaa1b4e94ee30c23",
+          "url": "https://github.com/shunk031/dotfiles/commit/42efb021e0018bcacbdd13a9351c2a519040cfc3"
+        },
+        "date": 1794069469467,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.234,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 6.73,
             "unit": "Second"
           }
         ]
