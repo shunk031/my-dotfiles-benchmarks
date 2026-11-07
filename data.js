@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793977387341,
+  "lastUpdate": 1794048800288,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5405,6 +5405,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 9.59,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "76742a7f08f9677e1b77a6b28ad05a24b99b5474",
+          "message": "feat(herdr): add LLM-free meta patrol LaunchAgent (#829)\n\n* feat(herdr): add LLM-free meta patrol LaunchAgent\n\nPoll Herdr root orchestrators every 15 minutes with a script and wake the\nmeta agent only when a new finding appears.\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01JryNHDz4WW1JCTYoyDpGin\n\n* fix(herdr): harden meta patrol delivery, timeouts, and normalization\n\nCo-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01JryNHDz4WW1JCTYoyDpGin\n\n---------\n\nCo-authored-by: Claude Sonnet 5.5 <noreply@anthropic.com>",
+          "timestamp": "2026-11-07T19:47:15+09:00",
+          "tree_id": "914df0ec6640cc60eefd08cb9daa8084278d36ae",
+          "url": "https://github.com/shunk031/dotfiles/commit/76742a7f08f9677e1b77a6b28ad05a24b99b5474"
+        },
+        "date": 1794048799333,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.221,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 8.76,
             "unit": "Second"
           }
         ]
