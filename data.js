@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794293445585,
+  "lastUpdate": 1794302699685,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5507,6 +5507,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 8.2,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4204e3b8f9d4fdef5660a19371ccdf652ce3ef3b",
+          "message": "fix(dotfiles): disable self-updates for pinned CLIs (#839)\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-11-10T18:16:28+09:00",
+          "tree_id": "f1ffc93cf3459e6f4bd79b448e8a54c16aa0402f",
+          "url": "https://github.com/shunk031/dotfiles/commit/4204e3b8f9d4fdef5660a19371ccdf652ce3ef3b"
+        },
+        "date": 1794302698800,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.408,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 9.92,
             "unit": "Second"
           }
         ]
