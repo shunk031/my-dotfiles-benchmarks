@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794477531843,
+  "lastUpdate": 1794484663292,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5575,6 +5575,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 11.45,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5612578a9e8e09d15194768eb5b2bcf1b64f1ccb",
+          "message": "Retire the Claude Python command gate (#846)\n\nRemove the Claude PreToolUse hook that never blocked a command, along with its script, settings registration, and tests.",
+          "timestamp": "2026-11-12T20:48:57+09:00",
+          "tree_id": "02591ea78b62f0328699a227721fe02e2abfc347",
+          "url": "https://github.com/shunk031/dotfiles/commit/5612578a9e8e09d15194768eb5b2bcf1b64f1ccb"
+        },
+        "date": 1794484662407,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.514,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 7.75,
             "unit": "Second"
           }
         ]
