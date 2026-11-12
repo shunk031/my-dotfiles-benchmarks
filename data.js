@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794302699685,
+  "lastUpdate": 1794477531843,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5541,6 +5541,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 9.92,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8f24a5d17d06bb06e719f65509f98c3d92cd03cc",
+          "message": "fix: pin ccusage for statusline (#848)\n\nThe status line fetched unpinned ccusage@latest through npx on every render. Declare ccusage in mise and call the installed binary, like ccstatusline.\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-11-12T18:50:25+09:00",
+          "tree_id": "a175ebae5edc5f2638a16943e57997ecbc8335f8",
+          "url": "https://github.com/shunk031/dotfiles/commit/8f24a5d17d06bb06e719f65509f98c3d92cd03cc"
+        },
+        "date": 1794477531013,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.396,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 11.45,
             "unit": "Second"
           }
         ]
