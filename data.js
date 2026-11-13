@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794573978099,
+  "lastUpdate": 1794581388061,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5677,6 +5677,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 7.56,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a4290a9da261bb8985fc30d80fbf3bd4e0111d29",
+          "message": "Authenticate mise GitHub API requests with gh (#872)\n\n* fix(mise): authenticate GitHub API requests with gh\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix(mise): resolve gh outside mise shims\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix(mise): drop post-apply token export\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* test(mise): align token coverage with credential command\n\nCo-authored-by: Codex <noreply@openai.com>\n\n---------\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-11-13T23:29:41+09:00",
+          "tree_id": "6dc070716e4dca1f34db14948fbd19d92514c6c7",
+          "url": "https://github.com/shunk031/dotfiles/commit/a4290a9da261bb8985fc30d80fbf3bd4e0111d29"
+        },
+        "date": 1794581387069,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.514,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 9.66,
             "unit": "Second"
           }
         ]
