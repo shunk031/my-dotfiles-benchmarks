@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794555909996,
+  "lastUpdate": 1794573978099,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5643,6 +5643,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 12.64,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2620f06a5ed66edd3393b11c7ec5c4efcc8bcffc",
+          "message": "feat: periodically fast-forward the Claude inbox clone (#871)\n\n* feat: periodically fast-forward the Claude inbox clone\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix: harden Claude inbox updater locking\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* test: align Claude inbox refusal assertions\n\nCo-authored-by: Codex <noreply@openai.com>\n\n---------\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-11-13T21:38:18+09:00",
+          "tree_id": "2263df5e73d71027a50934211cadbfd287ad8f8c",
+          "url": "https://github.com/shunk031/dotfiles/commit/2620f06a5ed66edd3393b11c7ec5c4efcc8bcffc"
+        },
+        "date": 1794573977301,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.297,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 7.56,
             "unit": "Second"
           }
         ]
