@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794484663292,
+  "lastUpdate": 1794555909996,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5609,6 +5609,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 7.75,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3bb9be0e7b324da441d283d820765bc6912c7e0c",
+          "message": "Update Herdr tab titles asynchronously (#870)\n\n* Update Herdr tab titles asynchronously\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* Cover Herdr plugin linking in shell tests\n\nCo-authored-by: Codex <noreply@openai.com>\n\n---------\n\nCo-authored-by: Shun Kitada <shunk031@users.noreply.github.com>\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-11-13T16:35:30+09:00",
+          "tree_id": "311672b56ec5967587471de02b5fd5499b94ee29",
+          "url": "https://github.com/shunk031/dotfiles/commit/3bb9be0e7b324da441d283d820765bc6912c7e0c"
+        },
+        "date": 1794555908720,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.675,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 12.64,
             "unit": "Second"
           }
         ]
