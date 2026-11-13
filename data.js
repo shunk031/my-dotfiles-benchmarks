@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794581388061,
+  "lastUpdate": 1794606321846,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5711,6 +5711,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 9.66,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c4a184c7f9499b6be33328dd7d8cdfd2c174f9d2",
+          "message": "Continue chezmoi apply when Herdr server is stale (#877)\n\n* Continue apply when Herdr plugin server is stale\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* Clarify stale Herdr plugin warning\n\nCo-authored-by: Codex <noreply@openai.com>\n\n---------\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-11-14T06:37:27+09:00",
+          "tree_id": "c84057c711a106025141bf6ad6f536adff8fc859",
+          "url": "https://github.com/shunk031/dotfiles/commit/c4a184c7f9499b6be33328dd7d8cdfd2c174f9d2"
+        },
+        "date": 1794606321029,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.382,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 11.37,
             "unit": "Second"
           }
         ]
