@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794606321846,
+  "lastUpdate": 1794742407592,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5745,6 +5745,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 11.37,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cfb1bb1c561fbd564a21931342026bb9936a95e6",
+          "message": "feat(ccstatusline): show weekly usage widgets (#889)\n\n* feat(ccstatusline): show weekly usage widgets\n\nAdd the weekly usage and Fable weekly usage widgets to the first status\nline and sync the settings keys written by the ccstatusline TUI.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\n\n* build(mise): bump ccstatusline to 2.2.34\n\nThe synced settings were written by ccstatusline 2.2.34, which removed\nthe flexMode and compactThreshold options. Version 2.2.32 still reads\nthem and would fall back to full width when they are missing.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5.5 <noreply@anthropic.com>",
+          "timestamp": "2026-11-15T20:25:12+09:00",
+          "tree_id": "cdedb3a9d16d101731ed89f5ff0783b1c1e2b370",
+          "url": "https://github.com/shunk031/dotfiles/commit/cfb1bb1c561fbd564a21931342026bb9936a95e6"
+        },
+        "date": 1794742406540,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.459,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 11.88,
             "unit": "Second"
           }
         ]
