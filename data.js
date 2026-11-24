@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795556323154,
+  "lastUpdate": 1795558572725,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5813,6 +5813,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 8.36,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "92eac9d7438b729ab1d0982bd1073d84fa421c0a",
+          "message": "fix(claude): preserve private config modes (#943)\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-11-25T07:06:46+09:00",
+          "tree_id": "5470d653ef22eb4cec119c602beb9220429ea64f",
+          "url": "https://github.com/shunk031/dotfiles/commit/92eac9d7438b729ab1d0982bd1073d84fa421c0a"
+        },
+        "date": 1795558571607,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.398,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 8.99,
             "unit": "Second"
           }
         ]
