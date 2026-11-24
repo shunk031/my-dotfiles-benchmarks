@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794742407592,
+  "lastUpdate": 1795556323154,
   "repoUrl": "https://github.com/shunk031/dotfiles",
   "entries": {
     "MacOS benchmark": [
@@ -5779,6 +5779,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "zsh initial startup time",
             "value": 11.88,
+            "unit": "Second"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "shunsuke.kitada.0831@gmail.com",
+            "name": "Shunsuke KITADA",
+            "username": "shunk031"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cc6c1d2c79994505b68a37e206a32976d982b5a2",
+          "message": "feat: add opt-in Mozkey installation for macOS (#940)\n\n* feat: add opt-in Mozkey installation for macOS\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix: reject malformed Mozkey package receipts\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix: reject mismatched Mozkey package receipts\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix: validate Mozkey legacy migration state\n\nCo-authored-by: Codex <noreply@openai.com>\n\n* fix: validate Mozkey receipt and bundle versions\n\nCo-authored-by: Codex <noreply@openai.com>\n\n---------\n\nCo-authored-by: Codex <noreply@openai.com>",
+          "timestamp": "2026-11-25T06:29:28+09:00",
+          "tree_id": "37ceba3fbbd3497a2a4c1e58391951c32cefae9a",
+          "url": "https://github.com/shunk031/dotfiles/commit/cc6c1d2c79994505b68a37e206a32976d982b5a2"
+        },
+        "date": 1795556322263,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "zsh average startup time",
+            "value": 0.331,
+            "unit": "Second"
+          },
+          {
+            "name": "zsh initial startup time",
+            "value": 8.36,
             "unit": "Second"
           }
         ]
